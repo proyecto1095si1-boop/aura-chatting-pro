@@ -2,7 +2,7 @@
 
 This draft commercial license is a more structured agreement intended to be used as the basis for a signed commercial license between Licensor (RedPixel Games / proyecto1095si1-boop) and Licensee.
 
-Note: This is a template and not legal advice. Parties should consult counsel before signing. This draft presumes governing law of the State of New York, United States.
+Note: This is a template and not legal advice. Parties should consult counsel before signing. This draft presumes governing law of the Republic of Argentina and dispute venue in Buenos Aires, Argentina.
 
 ---
 
@@ -21,7 +21,7 @@ COMMERCIAL LICENSE AGREEMENT
 
 4. License Fee
    - Fee: USD [2,000] (or other negotiated amount)
-   - Payment terms: [e.g., 50% on signature, 50% on delivery]
+   - Payment terms: Payment method and details will be provided after initial contact; accepted methods typically include cryptocurrency, PayPal, and Stripe. No payment should be made prior to contact and receipt of formal payment instructions.
 
 5. Term
    - Initial Term: [e.g., 1 year] starting on Effective Date, renewable upon mutual agreement.
@@ -39,7 +39,7 @@ COMMERCIAL LICENSE AGREEMENT
    - Any confidential information exchanged during negotiation is protected.
 
 10. Governing Law
-   - State of New York, United States; courts located in New York County shall have exclusive jurisdiction.
+   - This Agreement shall be governed by the laws of the Republic of Argentina. Any dispute arising under or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts located in the Autonomous City of Buenos Aires, Argentina.
 
 11. Signatures
 
