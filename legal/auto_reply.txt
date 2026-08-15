@@ -1,0 +1,20 @@
+# Automated contact reply (mailchimp / autoresponder sample)
+
+Subject: Received — Aura Chatting Pro commercial license inquiry
+
+Body:
+
+Hello,
+
+Thank you for contacting RedPixel Games about a commercial license for Aura Chatting Pro. We have received your message and will respond within 3 business days. To help us expedite your request, please provide:
+- Company / Individual name
+- Intended commercial use
+- Estimated scale (users, deployments)
+- Whether you will redistribute or sublicense the Software
+- Preferred contact information
+
+If you do not receive a reply within 3 business days, please resend your inquiry.
+
+Best regards,
+RedPixel Games
+redpixel.games@gmail.com

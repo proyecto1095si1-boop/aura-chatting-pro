@@ -1,0 +1,63 @@
+Paid Commercial License and Non-Commercial Use — Aura Chatting Pro
+
+Copyright (c) 2026 proyecto1095si1-boop (RedPixel Games)
+
+Overview
+This license governs the use of the software distributed with this repository (the "Software"). The intent of this license is to allow free use, copying, modification, and redistribution of the Software for strictly non-commercial purposes, while requiring a paid commercial license for any commercial use.
+
+Definitions
+1. "Software" means the source code, binaries, documentation, images, configuration files, and other materials provided with this repository, including modifications and derivative works.
+2. "You" or "Licensee" means the individual or entity exercising rights under this license.
+3. "Non-Commercial Use" means use of the Software strictly for personal, educational, research, evaluation, or other purposes that do not result in direct or indirect commercial advantage, revenue, or monetary compensation.
+4. "Commercial Use" means any use of the Software that:
+   a) involves sale, license, sublicense, lease, rental, distribution for a fee, or any other transfer in exchange for money or other consideration; or
+   b) integrates the Software into a product, service, platform, or offering that is provided to third parties in exchange for money or other consideration, including but not limited to subscriptions, fees, commissions, advertising revenue, pay-per-use, or monetized in-app purchases; or
+   c) is performed by or on behalf of an entity whose primary purpose is commercial or profit-making, or where the Software materially contributes to a commercial offering.
+
+Grant of Rights (Non-Commercial)
+5. Subject to the terms and conditions below, the Copyright Holder hereby grants you a worldwide, non-exclusive, royalty-free, revocable license to use, copy, modify, merge, publish, and distribute the Software for Non-Commercial Use only.
+6. Redistributions of the Software, in whole or in part, must include a prominent copyright notice and a copy of this license.
+
+Commercial License Required
+7. Commercial Use of the Software is strictly prohibited unless you have obtained a valid, written commercial license from the Copyright Holder.
+8. Standard commercial license fee: USD 2,000 (two thousand United States dollars). Fees may be negotiated depending on scope, number of users, deployment scale, support, or other commercial considerations. Contact information for licensing: redpixel.games@gmail.com
+9. To request a commercial license, send an inquiry by email including at minimum: (a) a description of the intended commercial use; (b) estimated scale (number of users, instances, or deployments); (c) whether you will redistribute or sublicense the Software; and (d) a point of contact for negotiation.
+10. No Commercial Use may occur prior to execution of a written commercial license and receipt of any agreed fees.
+
+Unauthorized Commercial Use and Liquidated Damages
+11. If the Copyright Holder detects Commercial Use without a valid commercial license, Licensee will be in breach of this license and subject to legal and equitable remedies.
+12. The Copyright Holder reserves the right to claim actual damages and any other available remedies. Additionally, the parties agree that, absent proof to the contrary, a contractual remedy in the amount of USD 50,000 (fifty thousand United States dollars) shall be paid by Licensee as liquidated damages for unauthorized Commercial Use, in addition to any unpaid license fees, costs of investigation, attorney's fees, and other recovery costs.
+13. The parties acknowledge that the liquidated damages amount is a reasonable pre-estimate of harm and not a penalty; however, enforcement of such a clause will depend on applicable law and judicial discretion.
+
+Redistribution and Modifications
+14. You may redistribute and create derivative works of the Software provided that such redistribution or derivative works are used only for Non-Commercial Use and that the redistributed work retains the copyright notice and this license.
+15. Any redistribution that enables Commercial Use (for example, by packaging the Software into a product for sale) is strictly prohibited without a commercial license.
+
+Audit and Compliance
+16. The Copyright Holder may audit or investigate suspected unauthorized Commercial Use. Licensee agrees to cooperate with reasonable investigations and to provide documentation or information reasonably necessary to determine compliance.
+17. Failure to cooperate with a lawful audit may be treated as evidence of a breach and may trigger the remedies set forth in this license.
+
+No Trademark or Publicity Rights
+18. This license does not grant any rights to use the Copyright Holder's trademarks, trade names, service marks, or logos. Use of such marks requires separate written permission.
+
+Disclaimer of Warranty
+19. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+Limitation of Liability
+20. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Termination
+21. This license terminates automatically upon breach. Upon termination, you must cease all use and distribution of the Software and destroy or return all copies in your possession, at the Copyright Holder's election.
+
+Governing Law; Jurisdiction
+22. This license is governed by the laws of the State of New York, United States. Any disputes arising under or in connection with this license shall be subject to the exclusive jurisdiction of the state or federal courts located in New York County, New York, United States, unless the parties agree otherwise in writing.
+
+Acceptance
+23. By using, copying, modifying, or distributing the Software, you agree to be bound by the terms of this license.
+
+Contact for Commercial Licensing
+RedPixel Games
+Email: redpixel.games@gmail.com
+
+Important Legal Notice
+This license is provided as a template. It does not constitute legal advice. Depending on your jurisdiction, certain clauses (including liquidated damages or audit rights) may be limited or unenforceable. The Copyright Holder strongly recommends consulting with legal counsel to tailor and finalize any commercial license agreement and to ensure enforceability in the relevant jurisdictions.
