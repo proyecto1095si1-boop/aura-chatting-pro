@@ -1,0 +1,1774 @@
+{
+  "welcome": {
+    "title": "Aura",
+    "tagline": "Conecta con tu Aura",
+    "google": "Continuar con Google",
+    "apple": "Continuar con Apple",
+    "phone": "Entrar con número de teléfono",
+    "or": "o",
+    "terms_prefix": "Al continuar, aceptas nuestros ",
+    "terms_link": "Términos de Servicio",
+    "terms_and": " y ",
+    "privacy_link": "Política de Privacidad"
+  },
+  "verification": {
+    "title": "Verificación de Identidad",
+    "subtitle": "Obtén tu distintivo de verificado para generar más confianza",
+    "step1_title": "Paso 1: La Pose",
+    "step1_desc": "Tómate una selfie imitando la pose que aparece en pantalla.",
+    "step2_title": "Paso 2: Comparación",
+    "step2_desc": "Nuestro sistema (o un moderador) comparará tu selfie con tus fotos de perfil.",
+    "take_photo": "Tomar Selfie",
+    "submit": "Enviar para revisión",
+    "pending": "Verificación en revisión",
+    "pending_desc": "Estamos revisando tu identidad. Esto suele tardar menos de 24hs.",
+    "success": "¡Ya estás verificado!",
+    "failed": "Verificación rechazada",
+    "failed_retry": "La foto no coincidía. Inténtalo de nuevo.",
+    "camera_permission": "Necesitamos acceso a la cámara para verificarte.",
+    "error_title": "Error de Verificación",
+    "error_message": "No se pudo procesar la verificación. Por favor, intenta de nuevo.",
+    "retry": "Reintentar / Subir otra",
+    "reference": "Referencia",
+    "your_selfie": "Tu Selfie",
+    "retake": "Repetir",
+    "privacy_note": "Esta foto no será visible en tu perfil. Solo se usará para verificar tu identidad."
+  },
+  "common": {
+    "next": "Siguiente",
+    "back": "Atrás",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "error": "Error",
+    "loading": "Cargando...",
+    "skip": "Omitir",
+    "complete": "Completar",
+    "info": "Información",
+    "success": "¡Éxito!",
+    "interests": {
+      "travel": "Viajes",
+      "coffee": "Café",
+      "photography": "Fotografía",
+      "yoga": "Yoga",
+      "music": "Música",
+      "movies": "Cine",
+      "reading": "Lectura",
+      "techno": "Techno",
+      "dog_lover": "Amante de los perros",
+      "cat_lover": "Amante de los gatos",
+      "hiking": "Senderismo",
+      "running": "Running",
+      "gym": "Gym",
+      "cooking": "Cocina",
+      "art": "Arte",
+      "design": "Diseño",
+      "architecture": "Arquitectura",
+      "fashion": "Moda",
+      "gaming": "Gaming",
+      "surfing": "Surf",
+      "tennis": "Tenis",
+      "soccer": "Fútbol",
+      "swimming": "Natación",
+      "cycling": "Ciclismo",
+      "meditation": "Meditación",
+      "jazz": "Jazz",
+      "rock": "Rock",
+      "pop": "Pop",
+      "electronic": "Electrónica",
+      "reggaeton": "Reggaeton",
+      "wine": "Vino",
+      "beer": "Cerveza",
+      "beach": "Playa",
+      "mountain": "Montaña",
+      "netflix": "Netflix",
+      "theater": "Teatro",
+      "dance": "Baile",
+      "volunteering": "Voluntariado",
+      "entrepreneurship": "Emprendimiento",
+      "technology": "Tecnología",
+      "science": "Ciencia",
+      "psychology": "Psicología"
+    },
+    "lifestyle": {
+      "kids": {
+        "label": "Hijos",
+        "no": "Sin hijos",
+        "yes": "Con hijos",
+        "indifferent": "Indiferente"
+      },
+      "smoking": {
+        "label": "Fumador/a",
+        "no": "No fumo",
+        "yes": "Fumo",
+        "social": "Fumador/a social"
+      },
+      "drinking": {
+        "label": "Hábitos de bebida",
+        "never": "Nunca",
+        "socially": "Socialmente",
+        "frequently": "Frecuentemente"
+      },
+      "religion": {
+        "label": "Religión",
+        "none": "Ninguna",
+        "catholic": "Católico/a",
+        "christian": "Cristiano/a",
+        "jewish": "Judío/a",
+        "muslim": "Musulmán/a",
+        "buddhist": "Budista",
+        "other": "Otra"
+      },
+      "exercise": {
+        "label": "Ejercicio",
+        "often": "Frecuente",
+        "sometimes": "A veces",
+        "never": "Nunca"
+      },
+      "education": {
+        "label": "Educación",
+        "high_school": "Secundario",
+        "bachelors": "Universitario",
+        "masters": "Posgrado",
+        "doctorate": "Doctorado"
+      },
+      "pets": {
+        "label": "Mascotas",
+        "dog": "Perro",
+        "cat": "Gato",
+        "birds": "Aves",
+        "reptiles": "Reptiles",
+        "allergic": "Alérgico/a",
+        "no_pets": "Sin mascotas"
+      },
+      "zodiac": {
+        "label": "Signo del zodiaco",
+        "aries": "Aries",
+        "taurus": "Tauro",
+        "gemini": "Géminis",
+        "cancer": "Cáncer",
+        "leo": "Leo",
+        "virgo": "Virgo",
+        "libra": "Libra",
+        "scorpio": "Escorpio",
+        "sagittarius": "Sagitario",
+        "capricorn": "Capricornio",
+        "aquarius": "Acuario",
+        "pisces": "Piscis"
+      },
+      "personality": {
+        "label": "Tipo de personalidad",
+        "intj": "INTJ",
+        "intp": "INTP",
+        "entj": "ENTJ",
+        "entp": "ENTP",
+        "infj": "INFJ",
+        "infp": "INFP",
+        "enfj": "ENFJ",
+        "enfp": "ENFP",
+        "istj": "ISTJ",
+        "isfj": "ISFJ",
+        "estj": "ESTJ",
+        "esfj": "ESFJ",
+        "istp": "ISTP",
+        "isfp": "ISFP",
+        "estp": "ESTP",
+        "esfp": "ESFP"
+      },
+      "privacy": {
+        "show": "Mostrar en mi perfil",
+        "hide": "Oculto"
+      },
+      "relationship_goal": {
+        "label": "Objetivo de la relación",
+        "chat": "Conversar",
+        "friendship": "Amistad",
+        "informal": "Algo informal",
+        "stable": "Relación estable",
+        "life_partner": "Compañero/a de vida",
+        "stable_flexible": "Relación estable con opción a breve"
+      }
+    },
+    "error_session": "Error: No se encontró tu sesión. Intenta recargar la página.",
+    "error_session_app": "No se encontró tu sesión. Intenta cerrar y abrir la app.",
+    "copy": "Copiar",
+    "share": "Compartir"
+  },
+  "chat": {
+    "typing": "Escribiendo...",
+    "active_recently": "Activo/a hace poco",
+    "placeholder": "Escribí un mensaje...",
+    "empty_state": "Empieza la conversación",
+    "send_error": "Error al enviar el mensaje",
+    "seen": "Visto",
+    "match_with": "Match con {{name}}",
+    "unlock_match": "Desbloquear match",
+    "start_conversation": "¡Empezá la conversación!",
+    "support_name": "Soporte Aura",
+    "double_date_group": "Grupo Cita Doble",
+    "official_account": "Cuenta Oficial",
+    "say_hello": "¡Di hola a {{name}}!",
+    "dont_be_shy": "¡No seas tímido!",
+    "ephemeral_photo": "💣 Foto Temporal",
+    "photo": "🖼 Foto",
+    "admin_audit": "Auditoría Efímera (Admin)",
+    "temp_photo_sent": "Foto temporal enviada",
+    "tap_to_view": "Toca para ver (7s)",
+    "sender_only_label": "Solo para el receptor",
+    "already_viewed": "Ya vista por usuario",
+    "file_purged": "Archivo Purgado",
+    "destroyed": "Destruida",
+    "story_reply": "Respuesta a historia",
+    "official_badge": "Oficial",
+    "locked_seen": "🔒 Visto bloqueado",
+    "enable_photo_exchange": "Habilitar Intercambio de Fotos",
+    "consent_desc": "Por tu seguridad, Aura bloquea el envío de fotos en nuevos matches. Al habilitarlo, ambos podrán enviarse fotos permanentes o temporales.",
+    "enable_photos": "Habilitar Fotos",
+    "not_now": "Ahora no",
+    "waiting_confirmation": "Esperando confirmación",
+    "consent_wait_desc": "Ya has habilitado las fotos, pero {{name}} aún no lo ha hecho. Ambos deben aceptar para poder intercambiar imágenes.",
+    "understood": "Entendido",
+    "withdraw_permission": "Retirar mi permiso",
+    "attach_image": "Adjuntar Imagen",
+    "explosive_photo": "Foto Explosiva",
+    "explosive_photo_desc": "Se autodestruirá a los 7 segundos.",
+    "permanent_photo": "Foto Permanente",
+    "permanent_photo_desc": "Quedará guardada en el chat.",
+    "disable_cameras": "Desactivar Cámaras",
+    "disable_cameras_desc": "Dejarás de poder enviar y recibir fotos.",
+    "audit_mode": "🛡️ MODO AUDITORÍA (Solo Lectura)",
+    "support_locked": "Este es un chat de soporte oficial. No puedes responder aquí.",
+    "sender_no_view": "Como emisor, no puedes ver la foto temporal una vez enviada. Solo el receptor puede abrirla.",
+    "upload_error": "Error subiendo foto"
+  },
+  "icebreaker": {
+    "title": "✨ Aura AI Icebreaker",
+    "subtitle": "Rompe el hielo con sugerencias mágicas",
+    "generating": "Generando sugerencias...",
+    "pick_one": "Elegí una frase para empezar",
+    "regenerate": "🔄 Regenerar sugerencias",
+    "limit_reached": "Has alcanzado el límite diario de IA. ¡Pásate a Platinum!",
+    "btn_tooltip": "Sugerencia IA",
+    "types": {
+      "casual": "CASUAL",
+      "funny": "DIVERTIDO",
+      "deep": "PROFUNDO"
+    }
+  },
+  "profile": {
+    "title": "Mi perfil",
+    "edit": "Editar Perfil",
+    "edit_btn": "Editar",
+    "about": "Sobre",
+    "interests": "Intereses",
+    "settings": "Ajustes",
+    "language": "Idioma",
+    "verified": "Verificado",
+    "premium": "Premium",
+    "bio_placeholder": "Completá tu bio para mejorar tus matches ✨",
+    "stats": {
+      "likes": "Likes recibidos",
+      "matches": "Matches",
+      "superlikes": "Super Likes"
+    },
+    "plans": {
+      "free": "Gratis",
+      "gold": "⭐ Gold",
+      "elite": "💎 Elite",
+      "unlimited": "Ilimitados",
+      "remaining": "{{count}} likes restantes hoy",
+      "upgrade": "Mejorar →"
+    },
+    "settings_items": {
+      "notifications": "Notificaciones",
+      "privacy": "Privacidad",
+      "help": "Ayuda",
+      "terms": "Términos y condiciones"
+    },
+    "logout": "Cerrar sesión",
+    "add_photo": "Añadir",
+    "delete_photo_title": "¿Borrar foto?",
+    "delete_photo_confirm": "Esta acción eliminará la foto permanentemente de tu perfil.",
+    "delete_photo_delete": "Eliminar",
+    "delete_error": "No se pudo eliminar la foto.",
+    "min_photo_error": "Debes tener al menos una foto de perfil.",
+    "verification_pending": "Verificación en curso",
+    "verify_profile": "Verifica tu perfil",
+    "verification_pending_desc": "Estamos revisando tu foto. Te avisaremos pronto.",
+    "verification_desc": "Obtén el badge azul y genera más confianza.",
+    "store_title": "💎 Tienda A la Carta",
+    "store_subtitle": "Packs de Boosts y Super Likes",
+    "see_more": "Ver Más",
+    "boost_subtitle": "Multiplica tu visibilidad ahora",
+    "has_invitation": "¡Tienes una invitación!",
+    "invitation_subtitle": "Alguien quiere ser tu pareja de citas",
+    "about_me": "Sobre mí",
+    "my_lifestyle": "Mi Estilo de Vida",
+    "social_links": "Redes Sociales"
+  },
+  "phone": {
+    "title": "Tu número",
+    "subtitle": "Te enviaremos un código de verificación por SMS",
+    "placeholder": "Número de teléfono",
+    "disclaimer": "Al continuar, confirmas que tienes 18 años o más y aceptas recibir mensajes SMS.",
+    "send_code": "Enviar código",
+    "countries": {
+      "ar": "Argentina",
+      "us": "USA",
+      "mx": "México",
+      "co": "Colombia",
+      "cl": "Chile",
+      "es": "España",
+      "br": "Brasil",
+      "bo": "Bolivia",
+      "cr": "Costa Rica",
+      "cu": "Cuba",
+      "ec": "Ecuador",
+      "sv": "El Salvador",
+      "gt": "Guatemala",
+      "hn": "Honduras",
+      "ni": "Nicaragua",
+      "pa": "Panamá",
+      "py": "Paraguay",
+      "pe": "Perú",
+      "pr": "Puerto Rico",
+      "do": "República Dominicana",
+      "uy": "Uruguay",
+      "ve": "Venezuela",
+      "ca": "Canadá",
+      "uk": "Reino Unido",
+      "fr": "Francia",
+      "de": "Alemania",
+      "it": "Italia",
+      "pt": "Portugal"
+    }
+  },
+  "otp": {
+    "title": "Código de verificación",
+    "subtitle": "Ingresa el código de 6 dígitos que enviamos a tu número",
+    "resend_text": "¿No recibiste el código? ",
+    "resend_link": "Reenviar",
+    "verify": "Verificar"
+  },
+  "onboarding": {
+    "name": {
+      "title": "¿Cómo te\nllamás?",
+      "subtitle": "Usaremos tu nombre de pila",
+      "placeholder": "Tu nombre",
+      "hint": "Solo tu nombre de pila, sin apellido",
+      "account_info": "Has iniciado sesión como",
+      "not_you": "¿No eres tú?",
+      "logout": "Cerrar sesión",
+      "error_save": "Error al guardar los datos. Inténtalo de nuevo."
+    },
+    "birth": {
+      "title": "¿Cuándo es\ntu cumpleaños?",
+      "subtitle": "Debes tener al menos 18 años para usar Aura",
+      "day": "Día",
+      "month": "Mes",
+      "year": "Año",
+      "months": [
+        "Ene",
+        "Feb",
+        "Mar",
+        "Abr",
+        "May",
+        "Jun",
+        "Jul",
+        "Ago",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dic"
+      ],
+      "age_display": "Tienes {{age}} años"
+    },
+    "gender": {
+      "title": "¿Cómo te identificás?",
+      "subtitle": "Esto nos ayuda a mostrarte los perfiles correctos",
+      "soy": "Soy",
+      "busco": "Busco",
+      "options": {
+        "man": "Hombre",
+        "woman": "Mujer",
+        "nonbinary": "No binario",
+        "other": "Otro"
+      },
+      "looking_for": {
+        "men": "Hombres",
+        "women": "Mujeres",
+        "everyone": "Todos"
+      }
+    },
+    "location": {
+      "title": "¿Dónde estás?",
+      "subtitle": "Necesitamos tu ubicación para mostrarte personas cercanas",
+      "activate_title": "Activar ubicación",
+      "activate_desc": "Aura usa tu ubicación para mostrarte personas cerca de vos",
+      "allow_access": "Permitir acceso",
+      "activating": "Activando...",
+      "activated": "Ubicación activada",
+      "origin_label": "¿De dónde sos? (opcional)",
+      "origin_placeholder": "Ciudad o país de origen",
+      "origin_hint": "Esto aparecerá en tu perfil"
+    },
+    "photos": {
+      "title": "Tus fotos",
+      "subtitle": "Subí al menos {{min}} fotos para activar tu perfil",
+      "main": "Principal",
+      "required": "Requerida",
+      "hint": "Mantén presionada una foto para eliminarla. La primera foto será tu foto principal.",
+      "continue_btn": "Continuar ({{count}}/{{min}} mín.)",
+      "upload_error": "No se pudo subir la foto: ",
+      "missing_title": "Faltan Fotos",
+      "missing_message": "Debes subir al menos {{min}} fotos para continuar.",
+      "uploading": "Subiendo Foto..."
+    },
+    "interests": {
+      "title": "Tus intereses",
+      "subtitle": "Elegí al menos {{min}} para mejorar tus matches",
+      "continue_btn": "Continuar ({{count}}/{{min}} mín.)",
+      "counter": "{{count}} seleccionados",
+      "minimum": "(mínimo {{min}})"
+    },
+    "bio": {
+      "title": "Tu bio",
+      "subtitle": "Contá algo sobre vos. Sé auténtico/a 😊",
+      "placeholder": "Ej: Amante del café y los viajes. Siempre buscando la próxima aventura...",
+      "hint": "La bio es opcional pero aumenta significativamente tus chances de hacer match ✨",
+      "skip_text": "Podés completarla más tarde desde tu perfil",
+      "start_btn": "¡Empezar a usar Aura!"
+    },
+    "lifestyle": {
+      "title": "Sobre tu estilo de vida",
+      "subtitle": "Ayúdanos a conocerte mejor para encontrar personas compatibles",
+      "personality_placeholder": "Ej: INFJ"
+    },
+    "prompts": {
+      "title": "Sobre vos",
+      "subtitle": "Respondé algunas preguntas para que tu perfil sea más interesante",
+      "add_btn": "+ Agregar pregunta",
+      "picker_title": "Elegí una pregunta",
+      "continue_btn": "Continuar"
+    }
+  },
+  "discover": {
+    "no_more": "No hay más perfiles por ahora",
+    "match_title": "¡Es un Match!",
+    "swipe": {
+      "like": "LIKE",
+      "nope": "NOPE",
+      "super": "SUPER",
+      "expand_hint": "↑ Deslizá para ver más"
+    },
+    "empty": {
+      "title": "¡Ya viste todos!",
+      "subtitle": "Volvé más tarde o ampliá tus filtros",
+      "refresh_btn": "Recargar perfiles"
+    },
+    "match": {
+      "title": "¡Es un Match! 🎉",
+      "subtitle": "¡Vos y {{name}} se gustaron!",
+      "send_message": "Enviar mensaje",
+      "continue": "Seguir explorando",
+      "match_with_name": "¡Match con {{name}}! 👋",
+      "its_a_match": "¡Hiciste match! 👋",
+      "double_match": "¡Es un Match Doble! 🎉",
+      "match_with_team": "¡Match con {{name1}} y {{name2}}! 👥"
+    },
+    "rewind": {
+      "no_profiles_title": "No hay perfiles para volver",
+      "no_profiles_desc": "Solo puedes retroceder la última acción."
+    },
+    "searching": "Buscando personas cerca de ti...",
+    "title": "Descubrir",
+    "search_placeholder": "Buscar por nombre o interés...",
+    "filter_nearby": "Cerca de ti",
+    "filter_new": "Nuevos",
+    "filter_verified": "Verificados",
+    "empty_state_text": "No se encontraron perfiles",
+    "empty_state_subtext": "Intenta con otros filtros"
+  },
+  "matches": {
+    "title": "Matches",
+    "new_matches": "Nuevos matches",
+    "messages": "Mensajes",
+    "match_with": "Match con {{name}}",
+    "unlock_title": "Desbloquear Match",
+    "unlock_desc": "Suscribite a Gold o mirá un anuncio para ver quién es.",
+    "new_match_hint": "¡Nuevo match! Decí hola 👋",
+    "empty": {
+      "title": "Sin matches aún",
+      "subtitle": "¡Seguí deslizando para encontrar tu match!"
+    },
+    "loading": "Cargando matches...",
+    "start_conversation": "¡Hiciste match! Sé el primero en empezar la conversación.",
+    "team_fallback": "Equipo...",
+    "pair_fallback": "Pareja...",
+    "watch_ad_hint": "▶ Ver anuncio",
+    "likes_you_count_one": "Le gustas a {{count}} persona",
+    "likes_you_count_other": "Le gustas a {{count}} personas",
+    "unlocked": "Desbloqueado",
+    "likes_you_hint": "Toca en una persona y mira un anuncio breve para descubrirla",
+    "stories_title": "Historias",
+    "stories_subtitle": "Mira qué están haciendo tus matches",
+    "ad_modal": {
+      "title": "¡Mira un anuncio!",
+      "subtitle_before": "Ve un anuncio corto para descubrir quién es",
+      "subtitle_after": "que te dio like ❤️",
+      "opening": "Abriendo anuncio...",
+      "watch_btn": "Ver Anuncio y Desbloquear",
+      "cancel": "Cancelar",
+      "premium_hint": "Con Gold o Elite no hay anuncios — Ver planes",
+      "incomplete_title": "Anuncio incompleto",
+      "incomplete_msg": "Debes ver el anuncio completo para desbloquear el perfil.",
+      "error_title": "Error de red",
+      "error_msg": "No se pudo cargar el anuncio. ¿Quieres intentar de nuevo?",
+      "error_msg_web": "No se pudo cargar el anuncio. Por favor, intenta de nuevo.",
+      "cancel_btn": "Cancelar",
+      "retry_btn": "Reintentar"
+    }
+  },
+  "paywall": {
+    "header": {
+      "badge": "⚡ Premium",
+      "title": "Desbloqueá\ntodo Aura",
+      "subtitle": "Más matches, más conexiones, más posibilidades"
+    },
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "period": "para siempre"
+      },
+      "gold": {
+        "name": "Gold",
+        "period": "por mes",
+        "badge": "Popular"
+      },
+      "elite": {
+        "name": "Elite",
+        "period": "por mes",
+        "badge": "Mejor valor"
+      }
+    },
+    "features": {
+      "likes_20": "20 likes por día",
+      "superlike_1": "1 Super Like por día",
+      "view_matches": "Ver matches",
+      "unlimited_likes": "Likes ilimitados",
+      "rewind": "Rewind (deshacer)",
+      "boost_1": "1 Boost por mes",
+      "view_who_likes": "Ver quién te dio like",
+      "unlimited_superlikes": "Super Likes ilimitados",
+      "unlimited_boosts": "Boosts ilimitados",
+      "algorithm_priority": "Prioridad en el algoritmo",
+      "unlimited_likes_label": "Likes Ilimitados",
+      "rewind_unlimited": "Rewind (Retroceder Ilimitado)",
+      "profile_visibility_control": "Control de Perfil y Visibilidad",
+      "read_receipts": "Confirmación de Lectura",
+      "no_ads_swipes": "🚫 Sin anuncios entre deslizamientos",
+      "world_mode": "Modo Mundi (Perfiles Internacionales)",
+      "see_who_likes_no_ads": "Ver a quién le gustas (sin anuncios)",
+      "weekly_super_likes_5": "5 Super Likes Semanales",
+      "all_starter": "Todo lo del Plan Starter",
+      "see_who_liked_no_ads": "✨ Ver quién te gustó — sin anuncios",
+      "curated_daily_picks": "Top Picks Diarios Curados",
+      "monthly_free_boost": "1 Boost Mensual Gratis",
+      "world_mode_gold": "🌍 Modo Mundi: Matches con Gold/Platinum internacionales",
+      "message_before_match": "Mensaje antes del Match",
+      "all_gold": "Todo lo del Plan Gold",
+      "zero_ads": "🚫 Cero anuncios en toda la app",
+      "see_who_liked_instant": "✨ Ver quién te gustó — instantáneo, sin anuncios",
+      "priority_likes": "Likes Prioritarios (Aparece primero)",
+      "add_message_before_match": "Añadir Mensaje antes del Match",
+      "likes_history": "Historial de Likes (7 días)",
+      "vip_support": "Soporte VIP"
+    },
+    "premium_levels": "Niveles Aura Premium",
+    "get_more_matches": "Obtén más matches.",
+    "level_up_desc": "Asciende de nivel y disfruta de funciones diseñadas para maximizar tus conexiones.",
+    "processing_payment": "Procesando el pago...",
+    "upgrade_to": "Actualizar a {{name}}",
+    "currently_active": "Actualmente activo",
+    "payment_disclaimer": "El pago será cargado a tu cuenta de Google Play al confirmar la compra. La suscripción se renueva automáticamente a menos que se desactive la renovación automática.",
+    "terms_of_use": "Términos de Uso",
+    "restore_purchases": "Restaurar Compras",
+    "privacy": "Privacidad",
+    "maximum": "Máximo",
+    "cta": {
+      "processing": "Procesando...",
+      "continue_free": "Continuar gratis",
+      "subscribe": "Suscribirse a {{plan}}"
+    },
+    "disclaimer": "Se cobra automáticamente. Cancelá cuando quieras.",
+    "current_plan": "Plan actual"
+  },
+  "edit_profile": {
+    "title": "Editar perfil",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "name_label": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "bio_label": "Bio",
+    "bio_placeholder": "Contanos sobre vos...",
+    "tips_title": "💡 Tips para una mejor bio",
+    "tips": [
+      "Sé auténtico y genuino",
+      "Mencioná tus hobbies e intereses",
+      "Agregá un poco de humor",
+      "Evitá información personal sensible"
+    ],
+    "interests_label": "Tus intereses",
+    "edit_interests": "Editar intereses →",
+    "social_label": "Redes sociales",
+    "prompts_label": "Sobre mí (Preguntas)",
+    "add_prompt_btn": "+ Agregar pregunta",
+    "privacy_label": "Privacidad de detalles",
+    "save_btn": "Guardar cambios",
+    "saving_btn": "Guardando cambios...",
+    "personality_placeholder": "Ej: INFJ",
+    "username_placeholder": "usuario",
+    "prompt_placeholder": "Tu respuesta..."
+  },
+  "prompts": {
+    "q1": "¿Mi domingo perfecto?",
+    "q2": "La canción que no puedo dejar de escuchar",
+    "q3": "¿Cuál es tu lenguaje del amor?",
+    "q4": "Un dato curioso sobre mí",
+    "q5": "Si pudiera viajar a cualquier lugar, sería a...",
+    "q6": "Lo que más valoro en una persona",
+    "q7": "Mi mayor talento inútil",
+    "q8": "La película que puedo ver mil veces",
+    "q9": "¿Café o té?",
+    "q10": "Mi cita ideal sería...",
+    "q11": "Algo que siempre me hace reír",
+    "q12": "Mi placer culposo es...",
+    "q13": "El mejor consejo que he recibido",
+    "q14": "Si fuera un animal, sería un...",
+    "q15": "Lo primero que noto en alguien es...",
+    "q16": "¿Playa o montaña?",
+    "q17": "Mi recuerdo favorito de la infancia",
+    "q18": "Una opinión impopular que tengo",
+    "q19": "Si ganara la lotería mañana, yo...",
+    "q20": "Mi superpoder ideal sería...",
+    "q21": "La aplicación que más uso en mi celular",
+    "q22": "¿Cocinar en casa o salir a comer?",
+    "q23": "Mi libro favorito de todos los tiempos",
+    "q24": "¿Persona de mañana o de noche?",
+    "q25": "De pequeño quería ser...",
+    "q26": "Algo que nunca falta en mi maleta",
+    "q27": "Mi mayor aventura hasta ahora",
+    "q28": "¿Perros o gatos?",
+    "q29": "La mejor comida que he probado es...",
+    "q30": "¿Qué me hace sentir más vivo?"
+  },
+  "filters": {
+    "title": "Filtros",
+    "reset": "Reiniciar",
+    "back": "Atrás",
+    "age": "Edad",
+    "distance": "Distancia máxima",
+    "gender": "Género",
+    "interests": "Intereses",
+    "only_photos": "Solo con fotos",
+    "verified": "Verificados",
+    "online_now": "En línea ahora",
+    "distance_unit": "Unidad de distancia",
+    "km": "Kilómetros (km)",
+    "mi": "Millas (mi)",
+    "premium_only": "Solo perfiles Premium",
+    "lifestyle_filters": "Más sobre estilo de vida",
+    "height_range": "Rango de altura",
+    "languages": "Idiomas",
+    "religion": "Creencias religiosas",
+    "exercise": "Hábitos de ejercicio",
+    "education": "Nivel de estudios",
+    "pets": "Mascotas",
+    "drinking": "Consumo de alcohol",
+    "smoking": "Consumo de tabaco",
+    "apply": "Aplicar filtros",
+    "gold_only": "✨ Solo perfiles Gold",
+    "configure_now": "Configurar ahora",
+    "link_profile_first": "Para activar este modo, primero debes vincular tu perfil con un amigo.",
+    "travel": {
+      "title": "✈️ Modo Travel (Avanzado)",
+      "desc": "Elige tu ubicación para hacer matches antes de viajar.",
+      "change_title": "Cambiar Ubicación",
+      "change_q": "¿A dónde quieres viajar?",
+      "real_loc": "Mi Ubicación Real",
+      "cancel": "Cancelar",
+      "current_dest": "🌍 Destino actual: {{city}}",
+      "gps_loc": "Ubicación actual de GPS",
+      "available_premium": "🔒 Disponible en Platinum y Gold"
+    },
+    "genders": {
+      "man": "Hombre",
+      "woman": "Mujer",
+      "nonbinary": "No binario"
+    }
+  },
+  "store": {
+    "title": "Tienda A la Carta",
+    "legal": "Las compras a la carta se añadirán a tu inventario de forma permanente hasta que se consuman de forma individual.",
+    "purchase_error": "No pudimos procesar la compra. Inténtalo de nuevo."
+  },
+  "boost": {
+    "title": "Boost tu perfil",
+    "back": "Atrás",
+    "activate": "Activar Boost",
+    "confirm_title": "Confirmar Boost",
+    "confirm_message": "¿Deseas activar un Boost de {{label}} por {{cost}}⚡?",
+    "success_message": "Has activado un Boost de {{label}}. Tu perfil será prioritario ahora.",
+    "active_already": "Ya tienes un Boost activo.",
+    "activate_for": "Activar por {{cost}} ⚡",
+    "buy_more": "Comprar más Boosts",
+    "info_banner_title": "Eres el centro de atención",
+    "info_banner_subtitle": "Activa un Boost para ser el perfil principal en tu área.",
+    "cost_label": "Costo: {{cost}}⚡",
+    "most_popular": "MÁS POPULAR",
+    "how_it_works_title": "¿Cómo funciona?",
+    "banner": {
+      "title": "Aparecé primero",
+      "subtitle": "Multiplicá tus matches siendo visible para más personas"
+    },
+    "options": {
+      "popular": "⭐ Popular",
+      "label_30m": "30 Minutos",
+      "label_2h": "2 Horas",
+      "label_24h": "24 Horas",
+      "duration_30m": "30 minutos",
+      "duration_2h": "2 horas",
+      "duration_24h": "24 horas",
+      "features_30m": [
+        "30 minutos en el top de búsqueda",
+        "Más visibilidad",
+        "Notificación de boost activo"
+      ],
+      "features_2h": [
+        "2 horas en el top de búsqueda",
+        "3x más visibilidad",
+        "Notificación de boost activo",
+        "Contador regresivo visible"
+      ],
+      "features_24h": [
+        "24 horas en el top de búsqueda",
+        "10x más visibilidad",
+        "Notificación de boost activo",
+        "Contador regresivo visible",
+        "Aparece primero en búsquedas"
+      ],
+      "features_30m_alt": [
+        "Visibilidad x10",
+        "Prioridad en tu zona",
+        "Ideal para un swipe rápido"
+      ],
+      "features_2h_alt": [
+        "Visibilidad x10",
+        "Más matches garantizados",
+        "Perfecto para la noche"
+      ],
+      "features_24h_alt": [
+        "Visibilidad x10",
+        "Máxima exposición total",
+        "Domina tu ciudad"
+      ]
+    },
+    "how_it_works": {
+      "title": "¿Cómo funciona?",
+      "steps": [
+        {
+          "title": "Activá el boost",
+          "desc": "Elegí duración y confirmá"
+        },
+        {
+          "title": "Subí en ranking",
+          "desc": "Aparecé primero en búsquedas"
+        },
+        {
+          "title": "Más matches",
+          "desc": "Más visibilidad = más conexiones"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Elige tu tiempo",
+        "desc": "Selecciona cuánto tiempo quieres ser el perfil #1."
+      },
+      {
+        "title": "Multiplica x10",
+        "desc": "Aparecerás 10 veces más que los demás usuarios."
+      },
+      {
+        "title": "Recibe Matches",
+        "desc": "Disfruta de una lluvia de likes y matches instantáneos."
+      }
+    ],
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Puedo usar múltiples boosts?",
+          "a": "Sí, pero solo uno puede estar activo a la vez."
+        },
+        {
+          "q": "¿Se ve que estoy usando boost?",
+          "a": "No, es invisible. Solo vos sabés que estás boosteado."
+        },
+        {
+          "q": "¿Qué pasa si no recibo matches?",
+          "a": "Completá tu perfil con fotos de calidad e intereses reales."
+        }
+      ]
+    },
+    "faq_alt": {
+      "items": [
+        {
+          "q": "¿Qué es un Boost?",
+          "a": "Es una función que pone tu perfil en las primeras posiciones de tu zona durante el tiempo elegido."
+        },
+        {
+          "q": "¿Cuántos Boosts gasta?",
+          "a": "Depende de la duración: 30m = 1⚡, 2h = 4⚡ y 24h = 10⚡."
+        }
+      ]
+    },
+    "faq_what": "¿Qué es un Boost?",
+    "faq_what_answer": "Es una función que pone tu perfil en las primeras posiciones de tu zona durante el tiempo elegido.",
+    "faq_cost": "¿Cuántos Boosts gasta?",
+    "faq_cost_answer": "Depende de la duración: 30m = 1⚡, 2h = 4⚡ y 24h = 10⚡.",
+    "cta": {
+      "activating": "Activando...",
+      "activate_btn": "Activar por ${{price}}"
+    }
+  },
+  "notifications": {
+    "new_match": {
+      "title": "¡Es un match!",
+      "body": "¡Tú y {{name}} se gustan! Comienza a chatear."
+    },
+    "new_message": {
+      "title": "Mensaje de {{name}}",
+      "body": "{{preview}}"
+    },
+    "new_like": {
+      "title": "{{name}} te dio like",
+      "body": "Verifica tu perfil para ver quién te gusta"
+    },
+    "new_superlike": {
+      "title": "¡{{name}} te dio Super Like!",
+      "body": "Parece que alguien está muy interesado en ti 💙"
+    },
+    "daily_reminder": {
+      "title": "Vuelve a Aura",
+      "body": "Hay nuevas personas esperándote. ¡Encuentra tu match!"
+    },
+    "like_expired": {
+      "title": "Se acabaron tus likes",
+      "body": "Mejora a Gold o Elite para likes ilimitados"
+    },
+    "rewarded": "¡Fuiste recompensado! ✨",
+    "templates": {
+      "PROMO_WEEKEND": {
+        "title": "🎉 ¡Promo de Fin de Semana!",
+        "message": "Aprovecha descuentos exclusivos en Aura Gold solo por hoy."
+      },
+      "NEW_MATCH": {
+        "title": "❤️ ¡No te detengas!",
+        "message": "Hay personas nuevas esperando conocerte. ¡Sigue deslizando!"
+      },
+      "WARNING_RULES": {
+        "title": "⚠️ Recordatorio de Normas",
+        "message": "Mantengamos Aura seguro para todos. Revisa nuestras reglas."
+      },
+      "MAINTENANCE_SOON": {
+        "title": "🔧 Mantenimiento Programado",
+        "message": "Aura estará fuera de línea brevemente esta noche por mejoras."
+      },
+      "DISCOUNT_50": {
+        "title": "💎 ¡Oferta Relámpago!",
+        "message": "50% de descuento en suscripciones las próximas 2 horas."
+      },
+      "UPDATE_AVAILABLE": {
+        "title": "🚀 Nueva Versión Disponible",
+        "message": "Actualiza la app para disfrutar de las últimas funciones."
+      },
+      "ACCOUNT_VERIFIED": {
+        "title": "🛡️ Cuenta Verificada",
+        "message": "Tu perfil ahora tiene el sello oficial. ¡Disfruta los beneficios!"
+      },
+      "POPULAR_PROFILE": {
+        "title": "🔥 ¡Perfil Popular!",
+        "message": "Tu perfil está recibiendo muchos likes. ¡Aprovecha el momento!"
+      },
+      "GIFT_LIKES": {
+        "title": "🎁 ¡Regalo de la Casa!",
+        "message": "Te hemos regalado +10 likes adicionales para hoy. ¡Suerte!"
+      },
+      "INACTIVE_USER": {
+        "title": "👀 Te extrañamos",
+        "message": "Han pasado unos días. Vuelve a conectar con personas increíbles."
+      }
+    }
+  },
+  "settings": {
+    "title": "Ajustes",
+    "sections": {
+      "notifications": "Notificaciones",
+      "navigation": "Control de Navegación",
+      "support": "Soporte y Ayuda",
+      "community": "Comunidad",
+      "legal": "Legal y Privacidad",
+      "security": "Seguridad y Verificación",
+      "account": "Cuenta"
+    },
+    "items": {
+      "matches": "Matches",
+      "messages": "Mensajes",
+      "app_activity": "Actividad de Aura",
+      "view_profiles": "Ver Perfiles",
+      "incognito": "Modo Incógnito",
+      "help": "Ayuda y Asistencia",
+      "report": "Denunciar un Problema",
+      "share": "Compartir Aura",
+      "website": "Página Web",
+      "rules": "Reglas de la Comunidad",
+      "safety": "Centro de Seguridad",
+      "verify": "Verificar Perfil",
+      "verification_pending": "Verificación en revisión ⏳",
+      "verification_verified": "Tu cuenta está verificada ✅",
+      "verification_desc": "Obtén el badge oficial de seguridad",
+      "cookies": "Política de Cookies",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "licenses": "Licencias",
+      "community": "Comunidad",
+      "logout": "Cerrar Sesión",
+      "delete": "Borrar Cuenta"
+    },
+    "values": {
+      "balanced": "Equilibrado",
+      "recent": "Actividad Reciente",
+      "incognito_on": "Activado (Solo likes)",
+      "incognito_off": "Desactivado (Visible)"
+    },
+    "descriptions": {
+      "balanced": "Recomendaciones personalizadas basadas en nuestro algoritmo.",
+      "recent": "Aparecerán primero las personas que se han conectado hace poco.",
+      "incognito_on": "Tu perfil solo será visible para las personas a las que ya les hayas dado Like.",
+      "incognito_off": "Cualquier persona en Aura podrá ver tu perfil."
+    }
+  },
+  "help": {
+    "title": "Centro de Ayuda",
+    "search_placeholder": "¿En qué podemos ayudarte?",
+    "categories": {
+      "subscriptions": "Suscripciones",
+      "account": "Cuenta",
+      "safety": "Seguridad",
+      "matches": "Matches y Mensajes"
+    },
+    "faqs": {
+      "cancel": {
+        "q": "¿Cómo puedo cancelar mi suscripción?",
+        "a": "Si has adquirido una suscripción de Aura Gold o Elite, puedes gestionarla o cancelarla en cualquier momento para evitar renovaciones futuras..."
+      },
+      "gold_benefits": {
+        "q": "¿Qué beneficios obtengo con el plan Gold?",
+        "a": "Aura Gold está diseñado para quienes quieren elevar su experiencia de conexión. Al suscribirte, desbloqueas: Likes ilimitados para que nunca te detengas, 5 Super Likes por semana para destacar frente a otros, 1 Boost gratuito al mes para ser el perfil principal de tu zona, y la función de 'Rewind' para recuperar ese perfil que pasaste por error. Además, podrás ver la lista completa de personas a las que ya les gustas antes de deslizar."
+      },
+      "grace_period": {
+        "q": "¿Cómo funciona el periodo de gracia y borrado de cuenta?",
+        "a": "Cuando decides eliminar tu cuenta desde los ajustes de privacidad, Aura no borra tus datos de forma inmediata como medida de seguridad. Entras en un 'Periodo de Gracia' de 7 días naturales. Durante este tiempo, tu perfil queda oculto para toda la comunidad. Si te arrepientes, simplemente inicia sesión antes de que pasen los 7 días y tu cuenta se restaurará por completo. Si no lo haces, al octavo día procederemos al borrado físico y permanente de tus fotos, mensajes y datos de nuestros servidores."
+      },
+      "change_age": {
+        "q": "¿Puedo cambiar mi nombre o mi fecha de nacimiento?",
+        "a": "Para mantener la autenticidad y seguridad de nuestra comunidad, Aura no permite cambiar el nombre ni la fecha de nacimiento una vez que la cuenta ha sido verificada o creada. Esto previene suplantaciones de identidad. Si cometiste un error tipográfico grave al registrarte, te recomendamos eliminar la cuenta y crear una nueva con los datos correctos. Recuerda que la edad es un factor crítico para el cumplimiento legal en nuestra plataforma."
+      },
+      "report_harassment": {
+        "q": "¿Qué debo hacer si sufro acoso o un comportamiento inadecuado?",
+        "a": "Tu seguridad es lo más importante para nosotros. Si alguien te envía mensajes ofensivos, te falta el respeto o viola nuestras normas, repórtalo de inmediato. Puedes hacerlo desde el chat (icono de bandera 🚩 en la esquina superior) o desde su perfil (botón de Reportar). Una vez enviado, nuestro equipo de moderación revisará el historial de forma anónima y tomará medidas que pueden ir desde una advertencia hasta la expulsión permanente de la red."
+      },
+      "block_user": {
+        "q": "¿Cuál es la diferencia entre Bloquear y Reportar?",
+        "a": "Bloquear es una acción inmediata y personal: al bloquear a alguien, ambos desaparecen de la vista del otro y el chat se elimina de tu lista; esa persona no sabrá que la bloqueaste, simplemente dejará de verte. Reportar, por otro lado, envía una alerta a nuestro equipo técnico para que analicemos la conducta del usuario. Te recomendamos usar ambas opciones si te sientes amenazado o si el usuario está infringiendo claramente las reglas de la comunidad."
+      },
+      "missing_match": {
+        "q": "¿Por qué ya no veo a uno de mis matches?",
+        "a": "Hay tres razones principales por las que un match puede desaparecer de tu lista: 1. La otra persona ha decidido 'deshacer el match' manualmente. 2. La otra persona ha eliminado su cuenta de Aura definitivamente. 3. El perfil ha sido suspendido por nuestro sistema de seguridad debido a una infracción de las normas. En cualquiera de estos casos, por privacidad, no enviamos una notificación específica."
+      },
+      "no_notifs": {
+        "q": "No me llegan las notificaciones de nuevos mensajes",
+        "a": "Si has dejado de recibir alertas, verifica lo siguiente: Primero, ve a los Ajustes de Aura y asegúrate de que los interruptores de 'Mensajes' y 'Matches' estén activos. Segundo, revisa los ajustes del sistema de tu teléfono (Ajustes > Aplicaciones > Aura) y confirma que los permisos de notificación estén permitidos. En dispositivos Android, asegúrate también de que Aura no esté en modo 'Ahorro de batería extremo', ya que esto puede retrasar la llegada de mensajes en tiempo real."
+      },
+      "location_accuracy": {
+        "q": "¿Cómo actualiza Aura mi ubicación?",
+        "a": "Aura utiliza los servicios de geolocalización de tu dispositivo (GPS y redes Wi-Fi) para mostrarte personas cercanas. Tu ubicación se actualiza automáticamente cada vez que abres la aplicación. Si te desplazas a otra ciudad, verás gente de esa nueva zona al instante. No rastreamos tu ubicación en segundo plano cuando la app está cerrada para proteger tu privacidad y ahorrar batería."
+      },
+      "verification_process": {
+        "q": "¿Cómo consigo el sello de perfil verificado?",
+        "a": "El sello azul de verificación garantiza a los demás que eres una persona real. Para obtenerlo, ve a tu perfil y busca la opción 'Verificar cuenta'. El sistema te pedirá que te tomes una 'selfie' siguiendo un gesto específico. Nuestra IA comparará esa foto con las fotos de tu perfil en pocos minutos. Una vez aprobado, el sello aparecerá junto a tu nombre y aumentará drásticamente tu tasa de matches al generar más confianza."
+      }
+    },
+    "no_results": "No encontramos resultados",
+    "no_results_sub": "Intenta con otras palabras clave.",
+    "contact_title": "¿No encuentras lo que buscas?",
+    "contact_btn": "Contactar Soporte",
+    "verify_title": "Verificar Perfil",
+    "verify_subtitle": "Obtén tu badge oficial siguiendo las instrucciones."
+  },
+  "report_problem": {
+    "title": "Reportar un Problema",
+    "categories": {
+      "profile": "Perfil / Fotos",
+      "match": "Match / Chat",
+      "subscription": "Suscripción / Pago",
+      "safety": "Acoso / Seguridad",
+      "bug": "Error Técnico (Bug)",
+      "other": "Sugerencia / Otro"
+    },
+    "error_empty": "Por favor, describe el problema.",
+    "error_timeout": "Tiempo de espera agotado.",
+    "anonymous": "Anónimo",
+    "error_generic": "Algo salió mal.",
+    "success_title": "Reporte Enviado",
+    "success_sub": "Gracias. Revisaremos tu reporte pronto.",
+    "back_profile": "Volver al Perfil",
+    "info_title": "Estamos para ayudarte",
+    "info_sub": "Cuéntanos qué pasó para que podamos mejorar.",
+    "label_category": "Categoría",
+    "label_description": "Descripción",
+    "placeholder": "Da detalles sobre el problema...",
+    "submit": "Enviar Reporte",
+    "security_text": "Este reporte es seguro y confidencial."
+  },
+  "community": {
+    "rules": {
+      "title": "Reglas de la Comunidad",
+      "intro": "En Aura, nuestra prioridad es crear un espacio seguro y respetuoso para todos. Al usar la aplicación, te comprometes a seguir estas reglas esenciales para mantener la armonía:",
+      "items": [
+        {
+          "title": "🤝 Sé respetuoso con los demás",
+          "description": "Trata a los demás con amabilidad. No toleramos el acoso, el lenguaje de odio, la discriminación ni el bullying. Sé la mejor versión de ti mismo."
+        },
+        {
+          "title": "✨ Autenticidad ante todo",
+          "description": "Usa tus propias fotos e información real. Los perfiles falsos, los bots o la suplantación de identidad están estrictamente prohibidos y resultarán en la expulsión inmediata."
+        },
+        {
+          "title": "🚫 Prohibido el contenido explícito",
+          "description": "No se permite la desnudez ni el contenido sexualmente explícito. Mantén tu perfil apto para todos los públicos. La infracción de esta norma conlleva la baja permanente."
+        },
+        {
+          "title": "🛡️ Seguridad e Integridad",
+          "description": "No promuevas actividades ilegales ni compartas información personal de terceros sin su consentimiento. Protege tu privacidad y la de los demás."
+        },
+        {
+          "title": "📢 Nada de spam ni ventas",
+          "description": "Aura es para conectar, no para vender. No uses la app para publicidad, promociones comerciales, estafas o servicios de compañía."
+        }
+      ],
+      "footer": "El incumplimiento de estas normas puede resultar en la suspensión permanente de tu cuenta sin previo aviso. Ayúdanos a mantener Aura segura reportando cualquier infracción."
+    },
+    "safety": {
+      "title": "Centro de Seguridad",
+      "subtitle": "Tu seguridad es lo primero",
+      "intro": "Queremos que tu experiencia en Aura se mágica y, sobre todo, segura. Aquí tienes una guía completa sobre cómo protegerte tanto dentro como fuera de la aplicación.",
+      "on_app": {
+        "title": "💻 Seguridad en la App",
+        "items": [
+          "Nunca compartas datos financieros, números de tarjeta o contraseñas con otros usuarios.",
+          "Desconfía de perfiles que te pidan dinero o 'ayuda urgente' por cualquier motivo.",
+          "Mantén tus conversaciones dentro de Aura hasta que sientas total confianza con la otra persona.",
+          "Utiliza el botón de 'Reportar' si alguien te hace sentir incómodo o rompe las reglas."
+        ]
+      },
+      "on_date": {
+        "title": "☕ Seguridad en Citas Reales",
+        "items": [
+          "Queda siempre en lugares públicos y concurridos para los primeros encuentros.",
+          "Informa a un amigo o familiar sobre dónde vas, con quién y a qué hora esperas volver.",
+          "Encárgate de tu propio transporte: no dependas de la otra persona para ir o volver a casa.",
+          "Mantén el control: modera el consumo de bebidas y no pierdas de vista tus pertenencias."
+        ]
+      },
+      "tools": {
+        "title": "Nuestras Herramientas",
+        "verification": "✓ Perfiles Verificados: Te recomendamos interactuar prioritariamente con perfiles que tengan el sello de verificación azul.",
+        "blocking": "🚫 Bloqueo: Puedes bloquear a cualquier usuario en cualquier momento; esto ocultará tu perfil de ellos instantáneamente."
+      }
+    }
+  },
+  "legal": {
+    "cookies": {
+      "title": "Política de Cookies",
+      "intro": "En Aura utilizamos tecnologías de almacenamiento local y cookies para mejorar tu experiencia de usuario. A continuación detallamos su uso:",
+      "items": [
+        {
+          "title": "Mantenimiento de sesión",
+          "description": "Usamos AsyncStorage para que no tengas que iniciar sesión cada vez que abras la app."
+        },
+        {
+          "title": "Preferencias de usuario",
+          "description": "Recordamos tu idioma, temas visuales y ajustes de notificaciones."
+        },
+        {
+          "title": "Analítica anónima",
+          "description": "Recopilamos datos anónimos de uso para entender cómo mejorar nuestras funcionalidades."
+        }
+      ],
+      "footer": "No utilizamos cookies de terceros para seguimiento publicitario fuera de nuestra plataforma."
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "intro": "Tu privacidad es fundamental para nosotros. Esta política explica qué datos recopilamos y cómo los protegemos:",
+      "sections": [
+        {
+          "title": "Datos que recopilamos",
+          "content": "Al crear tu perfil, solicitamos tu nombre, fecha de nacimiento, género, fotos, intereses y ubicación. Estos datos son visibles para otros usuarios para facilitar conexiones."
+        },
+        {
+          "title": "Seguridad de la información",
+          "content": "Utilizamos Supabase y Firebase para el almacenamiento seguro de tu información. Todas las comunicaciones viajan de forma encriptada (HTTPS)."
+        },
+        {
+          "title": "Tus derechos",
+          "content": "Tienes derecho a acceder, rectificar o eliminar tus datos en cualquier momento. Al solicitar el borrado de cuenta desde los ajustes, tus datos se eliminarán de forma permanente en un plazo de 7 días."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "intro": "Al usar Aura, aceptas cumplir con los siguientes términos y condiciones de uso:",
+      "items": [
+        {
+          "title": "Elegibilidad",
+          "description": "Debes tener al menos 18 años para usar la aplicación. Nos reservamos el derecho de solicitar verificación de edad."
+        },
+        {
+          "title": "Código de Conducta",
+          "description": "El compromiso con el respeto mutuo es obligatorio. No se tolerará el acoso, discurso de odio ni material explícito."
+        },
+        {
+          "title": "Propiedad del contenido",
+          "description": "Tú conservas los derechos sobre tus fotos y bio, pero nos otorgas licencia para mostrarlos dentro de la plataforma para su funcionamiento."
+        }
+      ],
+      "footer": "Aura se reserva el derecho de suspender o eliminar cuentas que violen estos términos."
+    },
+    "licenses": {
+      "title": "Licencias y Copyright",
+      "copyright": "© 2026 Aura Dating. Todos los derechos reservados.",
+      "developer": "Desarrollado con pasión por Red Pixel Games.",
+      "intro": "Aura utiliza componentes de software de código abierto bajo sus respectivas licencias:",
+      "libraries": [
+        "React Native - Facebook Inc.",
+        "Expo Framework - 650 Industries Inc.",
+        "Firebase Services - Google LLC",
+        "Supabase Auth & DB - Supabase Inc.",
+        "React Native Reanimated - Software Mansion"
+      ]
+    }
+  },
+  "profile_detail": {
+    "about_me": "Sobre mí",
+    "info": "Información",
+    "interests": "Intereses",
+    "know_me": "Conóceme más",
+    "drinks": "Bebe",
+    "smokes": "Fuma",
+    "height": "Altura",
+    "zodiac": "Signo",
+    "personality": "Personalidad",
+    "looking_for": "Busca"
+  },
+  "admin": {
+    "manage_user": "Administrar Usuario",
+    "give_gold": "Dar Aura Gold",
+    "give_elite": "Dar Aura Elite",
+    "revoke_sub": "Quitar Suscripción",
+    "success_reward": "Usuario recompensado con éxito"
+  },
+  "cookies": {
+    "header": "Política de Cookies",
+    "intro": "En Aura, queremos ser claros y honestos sobre cómo recopilamos y procesamos datos sobre ti. Esta página está diseñada para informarte acerca de nuestras prácticas con respecto a las cookies y explicarte cómo puedes gestionarlas.",
+    "card": {
+      "title": "¿Ya sabes todo lo necesario sobre las cookies y solo deseas modificar tus ajustes?",
+      "text": "No hay problema. Ingresa en los ajustes del perfil en Aura para actualizar los ajustes de cookies del sitio web y dirígete a los ajustes de tu cuenta en la app para modificar tus preferencias de privacidad desde allí."
+    },
+    "intro2": "¿Quieres obtener más información sobre las cookies y cómo las utilizamos? ¡Con gusto te explicamos! Sigue leyendo.",
+    "note": "Nota: esta Política de cookies no aborda cómo procesamos tu información personal cuando no está relacionada con el uso que hacemos de las cookies. Para obtener más información sobre cómo procesamos tu información personal, consulta nuestra Política de Privacidad.",
+    "q_what_are_cookies": "¿Qué son las cookies?",
+    "what_are_cookies_text": "Las cookies son pequeños archivos de texto que se envían o a los que se accede desde tu navegador web o la memoria de tu dispositivo. Una cookie suele contener el nombre del dominio (ubicación en Internet) desde el cual se originó la cookie, la \"vida útil\" de la cookie (es decir, cuándo caduca) y un número único generado aleatoriamente o un identificador similar. Una cookie también puede contener información sobre tu dispositivo, como ajustes del usuario, historial de navegación y actividades realizadas mientras utilizas nuestros servicios.",
+    "q_different_types": "¿Existen diferentes tipos de cookies?",
+    "types": {
+      "first_third": {
+        "title": "Cookies de origen y de terceros",
+        "text": "Existen cookies de origen y cookies de terceros. Las cookies de origen las colocamos nosotros directamente en tu dispositivo. Por ejemplo, utilizamos cookies de origen para adaptar nuestro sitio web a las preferencias de idioma de tu navegador y para comprender mejor tu uso de nuestro sitio web. Las cookies de terceros las colocan nuestros socios y proveedores de servicios en tu dispositivo."
+      },
+      "session_persistent": {
+        "title": "Cookies de sesión y persistentes",
+        "text": "Existen cookies de sesión y cookies persistentes. Las cookies de sesión solo duran hasta que cierras tu navegador. Utilizamos cookies de sesión por diversas razones, como para obtener más información sobre tu uso de nuestro sitio web durante una única sesión de navegación y para ayudarte a utilizar nuestro sitio web de manera más eficiente. Las cookies persistentes tienen una vida útil más prolongada y no se eliminan automáticamente al cerrar tu navegador."
+      },
+      "other_tech": {
+        "title": "¿Qué pasa con otras tecnologías de seguimiento, como las balizas web y los SDK?",
+        "text": "Otras tecnologías como las balizas web (también llamadas etiquetas de píxel o GIF transparentes), las URL de seguimiento o los kits de desarrollo de software (SDK) se utilizan para fines similares."
+      },
+      "summary": "Para simplificar, en esta Política de cookies también nos referimos a estas tecnologías como \"cookies\"."
+    },
+    "usage": {
+      "title": "¿Para qué utilizamos las cookies?",
+      "text": "Al igual que la mayoría de los proveedores de servicios en línea, utilizamos cookies para proporcionar, asegurar y mejorar nuestros servicios, lo que incluye recordar tus preferencias, reconocerte cuando visitas nuestro sitio web, medir el éxito de nuestras campañas de marketing y personalizar y adaptar anuncios a tus intereses.",
+      "list_intro": "Cuando utilizas nuestros servicios, se pueden colocar en tu dispositivo algunos o todos los siguientes tipos de cookies:",
+      "items": {
+        "necessary": {
+          "title": "Cookies estrictamente necesarias:",
+          "text": "Estas cookies son esenciales para proporcionarte nuestros servicios."
+        },
+        "analytical": {
+          "title": "Cookies analíticas:",
+          "text": "Estas cookies nos ayudan a comprender cómo los usuarios interactúan con nuestro sitio web."
+        },
+        "performance": {
+          "title": "Cookies de rendimiento:",
+          "text": "Estas cookies nos permiten mejorar el rendimiento de nuestro sitio web."
+        },
+        "marketing": {
+          "title": "Cookies de marketing:",
+          "text": "Estas cookies se utilizan para mostrarte anuncios relevantes."
+        }
+      }
+    },
+    "control": {
+      "title": "¿Cómo puedes controlar las cookies?",
+      "intro": "Tienes varias opciones para controlar las cookies:",
+      "browser": {
+        "title": "Ajustes del navegador:",
+        "text": "Puedes configurar tu navegador para que rechace todas las cookies o para que te avise cuando se envíe una cookie."
+      },
+      "app": {
+        "title": "Ajustes de la aplicación:",
+        "text": "Puedes ajustar tus preferencias de privacidad en la configuración de la aplicación Aura."
+      },
+      "third_party": {
+        "title": "Herramientas de terceros:",
+        "text": "Existen herramientas de terceros que te permiten gestionar las cookies."
+      }
+    },
+    "contact": {
+      "title": "¿Cómo contactarnos?",
+      "text": "Si tienes alguna pregunta sobre esta Política de cookies, puedes contactarnos en:"
+    }
+  },
+  "privacy": {
+    "header": "Política de Privacidad",
+    "meta_effective": "Fecha de vigencia: 17/04/2026",
+    "meta_last": "Última actualización: 17/04/2026",
+    "main_title": "Política de Privacidad Global y Procesamiento de Datos",
+    "intro1": "Bienvenido a Aura. Tu privacidad no es solo una obligación legal para nosotros; es el pilar fundamental sobre el que hemos construido nuestra comunidad. Esta Política explica cómo recopilamos, utilizamos y protegemos tu información personal.",
+    "intro2": "Esta Política se aplica a todos los usuarios de la aplicación móvil Aura, nuestro sitio web, nuestras interfaces de programación de aplicaciones (API) y cualquier otro servicio en línea operado por Aura App Inc. y sus filiales corporativas (colectivamente, los \"Servicios\"). Al acceder o utilizar nuestros Servicios, reconoces que has leído, comprendido y aceptado las prácticas descritas en este documento.",
+    "sections": {
+      "s1": {
+        "title": "1. Información Exhaustiva que Recopilamos",
+        "intro": "Para ofrecer un servicio de emparejamiento seguro y personalizado, recopilamos varias categorías de datos:",
+        "sub1": {
+          "title": "1.1. Información que nos proporcionas de forma directa y voluntaria",
+          "item1": {
+            "bold": "• Datos de Registro y Cuenta:",
+            "text": "Al crear una cuenta, requerimos información básica de identificación que incluye, de manera enunciativa mas no limitativa: tu nombre de pila o seudónimo, dirección de correo electrónico válida, número de teléfono móvil (para verificación por SMS), fecha de nacimiento (para verificar que cumples con la mayoría de edad legal) y género."
+          },
+          "item2": {
+            "bold": "• Datos del Perfil Público:",
+            "text": "Para que otros usuarios puedan interactuar contigo, te pedimos que completes un perfil. Esto incluye fotografías y/o videos tuyos, una biografía escrita, preferencias de búsqueda (rango de edad, distancia, género de interés), tu ocupación, nivel educativo, altura, hábitos de estilo de vida (como consumo de alcohol o tabaco), creencias religiosas, inclinaciones políticas y otros intereses personales. Eres el único responsable del contenido que decides hacer público en tu perfil."
+          },
+          "item3": {
+            "bold": "• Datos de Verificación de Identidad (Biometría):",
+            "text": "Para garantizar la seguridad de la comunidad y evitar perfiles falsos (catfishing), implementamos un sistema de verificación. Esto puede requerir que envíes un \"selfie\" en tiempo real o un video corto. Utilizamos tecnología de reconocimiento facial para comparar la geometría facial de tu selfie con las fotos de tu perfil. Estos datos biométricos se utilizan exclusivamente para este propósito de verificación y se eliminan de nuestros servidores activos una vez completado el proceso, generalmente en un plazo no mayor a 30 días, salvo que la ley exija lo contrario."
+          },
+          "item4": {
+            "bold": "• Datos de Comunicaciones y Mensajería:",
+            "text": "Recopilamos el contenido de los mensajes de texto, fotografías, notas de voz y cualquier otro material que envíes a otros usuarios a través de nuestro sistema de chat interno. Aunque los mensajes están encriptados en tránsito, mantenemos un registro de los mismos en nuestros servidores para fines de moderación, cumplimiento de nuestras Normas de la Comunidad y para colaborar con las autoridades en caso de investigaciones legales."
+          },
+          "item5": {
+            "bold": "• Datos de Pagos y Transacciones:",
+            "text": "Si decides adquirir una suscripción premium o realizar compras dentro de la aplicación, recopilamos información relacionada con la transacción. Ten en cuenta que los datos completos de tu tarjeta de crédito o débito son procesados directamente por nuestros proveedores de servicios de pago de terceros (como Apple App Store o Google Play Store) y nosotros solo recibimos tokens de confirmación, historial de compras, fecha de expiración y los últimos cuatro dígitos de la tarjeta para fines de facturación y prevención de fraude."
+          },
+          "item6": {
+            "bold": "• Datos de Soporte al Cliente:",
+            "text": "Si te comunicas con nuestro equipo de atención al cliente, recopilamos la información que nos proporciones durante esa interacción, incluyendo tu dirección de correo electrónico, el contenido de tus quejas o consultas, capturas de pantalla que adjuntes y cualquier otro dato necesario para resolver tu caso."
+          }
+        },
+        "sub2": {
+          "title": "1.2. Información que recopilamos automáticamente al usar nuestros Servicios",
+          "item1": {
+            "bold": "• Datos de Uso e Interacción (Telemetría):",
+            "text": "Registramos de forma continua cómo interactúas con la plataforma. Esto incluye la fecha y hora de tus inicios de sesión, las funciones que utilizas, los perfiles que visitas, a quién le das \"Me Gusta\", a quién descartas, los \"Super Likes\" que envías, el tiempo que pasas en la aplicación, las páginas web que visitaste antes o después de usar nuestro sitio, y tus interacciones con anuncios publicitarios."
+          },
+          "item2": {
+            "bold": "• Datos del Dispositivo y Hardware:",
+            "text": "Recopilamos información específica sobre el dispositivo electrónico que utilizas para acceder a Aura. Esto abarca el modelo de hardware, la versión del sistema operativo, identificadores únicos del dispositivo, la dirección MAC, la dirección IP, el tipo y versión del navegador web, la configuración de idioma, la zona horaria y datos sobre la red móvil o conexión Wi-Fi."
+          },
+          "item3": {
+            "bold": "• Datos de Geolocalización Precisa y Aproximada:",
+            "text": "Con tu consentimiento explícito otorgado a través de los permisos de tu sistema operativo, recopilamos tu ubicación geográfica precisa (latitud y longitud) utilizando GPS, Bluetooth y señales de Wi-Fi. Esta información es esencial para el funcionamiento central de Aura, ya que nos permite mostrarte perfiles de personas que se encuentran cerca de ti. Si deniegas este permiso, recopilaremos tu ubicación aproximada basándonos en tu dirección IP para fines de análisis y cumplimiento legal."
+          },
+          "item4": {
+            "bold": "• Cookies y Tecnologías de Rastreo Similares:",
+            "text": "Utilizamos cookies, balizas web (web beacons), píxeles de seguimiento, kits de desarrollo de software (SDK) y tecnologías similares para reconocer tu dispositivo, recordar tus preferencias, analizar el tráfico del sitio, medir la efectividad de las campañas publicitarias y mejorar la seguridad. Puedes configurar tu navegador para rechazar ciertas cookies, pero esto podría afectar la funcionalidad de los Servicios."
+          }
+        },
+        "sub3": {
+          "title": "1.3. Información que recibimos de terceros",
+          "item1": {
+            "bold": "• Socios de Redes Sociales (SSO):",
+            "text": "Si eliges crear tu cuenta o iniciar sesión utilizando credenciales de plataformas de terceros (como Facebook, Google o Apple), recibimos información de esas plataformas sujeta a sus propias políticas de privacidad y a los permisos que hayas configurado allí. Esto generalmente incluye tu nombre, dirección de correo electrónico, foto de perfil y, en algunos casos, tu lista de amigos o contactos."
+          },
+          "item2": {
+            "bold": "• Socios Publicitarios y Analíticos:",
+            "text": "Podemos recibir información sobre ti de nuestros socios de marketing y análisis de datos, como datos demográficos inferidos, intereses y tu interacción con anuncios de Aura en otros sitios web o aplicaciones."
+          },
+          "item3": {
+            "bold": "• Otros Usuarios:",
+            "text": "Podemos recibir información sobre ti si otro usuario se comunica con nosotros para presentar una queja, reporte o denuncia relacionada con tu comportamiento en la plataforma."
+          }
+        }
+      },
+      "s2": {
+        "title": "2. Uso de tu Información",
+        "intro": "Utilizamos tus datos para gestionar tu cuenta, facilitar matches, garantizar la seguridad y mejorar nuestros servicios.",
+        "sub1": {
+          "title": "2.1. Para administrar tu cuenta y prestarte nuestros Servicios (Ejecución de Contrato)",
+          "items": [
+            "Crear, mantener y gestionar tu cuenta de usuario.",
+            "Proporcionarte soporte técnico y responder a tus consultas.",
+            "Procesar tus pagos, suscripciones y gestionar reembolsos.",
+            "Sincronizar tu cuenta en múltiples dispositivos."
+          ]
+        },
+        "sub2": {
+          "title": "2.2. Para facilitar el emparejamiento y la conexión (Ejecución de Contrato e Interés Legítimo)",
+          "items": [
+            "Analizar tu perfil, tus preferencias y tu comportamiento de uso mediante nuestros algoritmos de inteligencia artificial para recomendarte perfiles altamente compatibles.",
+            "Mostrar tu perfil a otros usuarios de acuerdo con sus preferencias de búsqueda.",
+            "Habilitar la funcionalidad de chat, envío de imágenes y videollamadas (si estuvieran disponibles) entre usuarios que han hecho \"Match\"."
+          ]
+        },
+        "sub3": {
+          "title": "2.3. Para garantizar la seguridad, prevenir el fraude y moderar el contenido (Interés Legítimo y Obligación Legal)",
+          "items": [
+            "Verificar tu identidad y edad para asegurar que cumples con nuestros Términos de Servicio.",
+            "Escanear y analizar de forma automatizada y manual los perfiles, fotos y mensajes de chat para detectar lenguaje ofensivo, acoso, spam, fraude, explotación infantil, contenido sexual no consensuado o cualquier otra violación a nuestras Normas de la Comunidad.",
+            "Investigar reportes realizados por otros usuarios.",
+            "Bloquear, suspender o eliminar cuentas que infrinjan nuestras políticas.",
+            "Retener datos relacionados con cuentas suspendidas para evitar que los infractores creen nuevas cuentas."
+          ]
+        },
+        "sub4": {
+          "title": "2.4. Para marketing, publicidad y promociones (Consentimiento e Interés Legítimo)",
+          "items": [
+            "Enviarte correos electrónicos, notificaciones push o mensajes SMS con ofertas, descuentos, nuevas funcionalidades y noticias sobre Aura (puedes optar por no recibirlos en cualquier momento).",
+            "Mostrarte publicidad personalizada dentro y fuera de la aplicación, basada en tus intereses y comportamiento.",
+            "Medir la efectividad de nuestras campañas publicitarias.",
+            "Administrar sorteos, concursos o encuestas en los que decidas participar."
+          ]
+        },
+        "sub5": {
+          "title": "2.5. Para investigación, desarrollo y mejora continua (Interés Legítimo)",
+          "items": [
+            "Realizar análisis estadísticos, pruebas A/B y estudios de mercado para comprender cómo los usuarios interactúan con la plataforma.",
+            "Desarrollar nuevas características, productos y servicios.",
+            "Solucionar errores de software (bugs) y mejorar la estabilidad de la aplicación."
+          ]
+        }
+      },
+      "s3": {
+        "title": "3. Cómo Compartimos y Divulgamos tu Información",
+        "p1": "Aura no vende tu información personal a terceros. Sin embargo, para operar globalmente y ofrecerte nuestros Servicios, necesitamos compartir ciertos datos con entidades específicas bajo estrictas condiciones de confidencialidad:",
+        "sub1": {
+          "title": "3.1. Con otros usuarios de Aura",
+          "text": "La esencia de Aura es conectar personas. Por lo tanto, la información que incluyas en tu perfil público (fotos, biografía, edad, distancia aproximada) será visible para otros usuarios. Ten cuidado con lo que decides compartir. Si haces \"Match\" con alguien, esa persona podrá ver los mensajes que le envíes."
+        },
+        "sub2": {
+          "title": "3.2. Con Proveedores de Servicios y Procesadores de Datos",
+          "text": "Compartimos información con empresas de terceros de confianza que nos ayudan a operar nuestro negocio. Estos proveedores están obligados por contrato a utilizar tus datos únicamente para los fines que les indicamos y a implementar medidas de seguridad equivalentes a las nuestras. Incluyen: proveedores de alojamiento en la nube, herramientas de telemetría, servicios de atención al cliente, verificación de identidad y plataformas de marketing."
+        },
+        "sub3": {
+          "title": "3.3. Con Filiales y Afiliadas Corporativas",
+          "text": "Podemos compartir tu información con otras empresas que pertenecen al mismo grupo corporativo que Aura App Inc. para fines de procesamiento de datos centralizado, soporte al cliente global y para mejorar los servicios en todas nuestras plataformas."
+        },
+        "sub4": {
+          "title": "3.4. Por Requerimientos Legales y Protección de Derechos",
+          "text": "Podemos divulgar tu información personal a autoridades gubernamentales, fuerzas del orden, tribunales o terceros privados si creemos de buena fe que dicha divulgación es razonablemente necesaria para cumplir con la ley, investigar fraudes, proteger la integridad física de las personas, hacer cumplir nuestros términos o defender a Aura de reclamaciones legales."
+        },
+        "sub5": {
+          "title": "3.5. En caso de Fusiones, Adquisiciones o Transacciones Corporativas",
+          "text": "Si Aura se involucra en una fusión, adquisición, reestructuración, quiebra o venta de todos o una parte de sus activos, tu información personal puede ser transferida como parte de esa transacción. Te notificaremos antes de que tu información personal sea transferida y quede sujeta a una política de privacidad diferente."
+        }
+      },
+      "s4": {
+        "title": "4. Transferencias Internacionales de Datos",
+        "p1": "Aura es una plataforma global. Tu información personal puede ser transferida, almacenada y procesada en servidores ubicados en Estados Unidos, la Unión Europea y otros países distintos al de tu residencia. Las leyes de protección de datos en estos países pueden diferir de las de tu jurisdicción.",
+        "p2": "Cuando transferimos datos personales desde el Espacio Económico Europeo (EEE), el Reino Unido o Suiza a otros países, utilizamos mecanismos de transferencia legalmente aprobados, como las Cláusulas Contractuales Tipo (SCC) aprobadas por la Comisión Europea, para garantizar que tus datos reciban un nivel de protección adecuado."
+      },
+      "s5": {
+        "title": "5. Tus Derechos de Privacidad",
+        "intro": "Dependiendo de tu residencia, tienes derechos como el acceso, rectificación, supresión (derecho al olvido) y portabilidad de datos.",
+        "item1": {
+          "bold": "• Derecho de Acceso:",
+          "text": "Puedes solicitar una copia de los datos personales que tenemos sobre ti."
+        },
+        "item2": {
+          "bold": "• Derecho de Rectificación:",
+          "text": "Puedes actualizar o corregir información inexacta o incompleta directamente desde los ajustes de tu perfil en la app."
+        },
+        "item3": {
+          "bold": "• Derecho de Supresión (Derecho al Olvido):",
+          "text": "Puedes solicitar la eliminación de tu cuenta y tus datos personales. Ten en cuenta que podemos retener cierta información si es necesario por obligaciones legales o intereses legítimos."
+        },
+        "item4": {
+          "bold": "• Derecho de Portabilidad:",
+          "text": "Puedes solicitar recibir tus datos en un formato estructurado, de uso común y lectura mecánica."
+        },
+        "item5": {
+          "bold": "• Derecho a Restringir u Oponerte al Tratamiento:",
+          "text": "Puedes oponerte a que usemos tus datos para ciertos fines, como marketing directo."
+        },
+        "item6": {
+          "bold": "• Derecho a Retirar el Consentimiento:",
+          "text": "Si tratamos tus datos en base a tu consentimiento (como la geolocalización), puedes retirarlo en cualquier momento desde los ajustes de tu dispositivo."
+        },
+        "footer": "Para ejercer cualquiera de estos derechos, puedes usar las herramientas disponibles en la aplicación (Ajustes > Privacidad) o contactar a nuestro Delegado de Protección de Datos (DPO) en privacy@aura-app.com."
+      },
+      "s6": {
+        "title": "6. Retención de Datos",
+        "intro": "Retenemos tu información personal solo durante el tiempo necesario para cumplir con los fines descritos en esta Política, salvo que la ley requiera o permita un período de retención más largo.",
+        "item1": {
+          "bold": "• Cuentas Activas:",
+          "text": "Retenemos tus datos mientras tu cuenta esté activa."
+        },
+        "item2": {
+          "bold": "• Cuentas Eliminadas:",
+          "text": "Si eliminas tu cuenta, tus datos dejarán de ser visibles inmediatamente en la app. Sin embargo, podemos retener cierta información en nuestros sistemas de respaldo por un período limitado (generalmente hasta 3 meses) por razones técnicas."
+        },
+        "item3": {
+          "bold": "• Retención Legal y de Seguridad:",
+          "text": "Podemos retener datos específicos (como identificadores de dispositivos o correos electrónicos) de cuentas suspendidas por violar nuestras reglas, para evitar que esos usuarios vuelvan a acceder a la plataforma."
+        }
+      },
+      "s7": {
+        "title": "7. Seguridad de los Datos",
+        "p1": "Implementamos medidas de seguridad técnicas, administrativas y físicas de vanguardia para proteger tu información personal contra el acceso no autorizado, la alteración, la divulgación o la destrucción. Esto incluye cifrado de datos en tránsito (TLS/SSL) y en reposo, firewalls, controles de acceso estrictos y auditorías de seguridad regulares.",
+        "p2": "Sin embargo, ningún sistema es 100% seguro. No podemos garantizar la seguridad absoluta de tu información. Te instamos a usar una contraseña segura, no compartir tus credenciales y mantener tu dispositivo protegido."
+      },
+      "s8": {
+        "title": "8. Privacidad de Menores",
+        "p1": "Nuestros Servicios están estrictamente restringidos a personas mayores de 18 años. No recopilamos intencionalmente información personal de menores. Si descubrimos que un menor ha creado una cuenta, la eliminaremos inmediatamente junto con todos los datos asociados."
+      },
+      "s9": {
+        "title": "9. Cambios a esta Política de Privacidad",
+        "p1": "Aura se reserva el derecho de modificar esta Política en cualquier momento para reflejar cambios en nuestras prácticas, tecnología o requisitos legales. Si realizamos cambios materiales, te notificaremos a través de la app, por correo electrónico o mediante un aviso destacado en nuestro sitio web antes de que los cambios entren en vigor."
+      }
+    }
+  },
+  "terms": {
+    "header": "Términos de Servicio",
+    "meta_effective": "Fecha de entrada en vigor: 17/4/2026",
+    "main_title": "Condiciones de Uso",
+    "intro": "Bienvenido a Aura. Al crear una cuenta, aceptas estas Condiciones de Uso.",
+    "warning": "AL CREAR UNA CUENTA, ACEPTAS QUEDAR VINCULADO POR ESTAS CONDICIONES. SI NO LAS ACEPTAS, NO UTILICES NUESTROS SERVICIOS.",
+    "sections": {
+      "s1": "1. Aceptación del Acuerdo",
+      "s1_p1": "Al crear una cuenta en Aura o al utilizar la aplicación, aceptas quedar vinculado por estas Condiciones, nuestra Política de Privacidad y Política de Cookies.",
+      "s2": "2. Elegibilidad",
+      "s2_p1": "Debes tener al menos 18 años de edad para crear una cuenta en Aura y utilizar el Servicio.",
+      "s3": "3. Tu Cuenta",
+      "s3_p1": "Eres responsable de mantener la confidencialidad de tus credenciales de inicio de sesión.",
+      "s4": "4. Modificación de los Servicios y Terminación",
+      "s4_p1": "Aura siempre se esfuerza por mejorar el Servicio. Podemos añadir o eliminar funciones en cualquier momento.",
+      "s5": "5. Seguridad; Tus Interacciones con Otros Usuarios",
+      "s5_p1": "AURA NO REALIZA VERIFICACIONES DE ANTECEDENTES PENALES DE LOS USUARIOS. ERES EL ÚNICO RESPONSABLE DE TUS INTERACCIONES.",
+      "s8": "8. Reglas de la Comunidad",
+      "s8_p1": "Aceptas no utilizar el Servicio para ningún propósito ilegal o dañino.",
+      "s9": "9. Compras y Suscripciones",
+      "s9_p1": "Aura opera bajo un modelo de suscripción único, transparente y global.",
+      "s14": "14. Arbitraje y Renuncia a Demandas Colectivas",
+      "s14_p1": "EL MEDIO EXCLUSIVO PARA RESOLVER DISPUTAS SERÁ EL ARBITRAJE VINCULANTE. RENUNCIAS A TU DERECHO DE IR A LOS TRIBUNALES.",
+      "s18": "18. Contacto",
+      "s18_p1": "Si tienes alguna pregunta, por favor contáctanos en: support@aura-app.com"
+    }
+  },
+  "community_rules": {
+    "title": "Normas de la Comunidad",
+    "subtitle": "Sé parte de una comunidad segura",
+    "intro": "En Aura, queremos crear un espacio seguro, respetuoso y auténtico para todos.",
+    "authentic": {
+      "title": "Sé Auténtico",
+      "text": "No te hagas pasar por otra persona. Usa fotos reales tuyas y sé honesto en tu perfil. Las cuentas falsas o de suplantación de identidad serán eliminadas permanentemente."
+    },
+    "respect": {
+      "title": "Respeta a los Demás",
+      "text": "No toleramos el acoso, el discurso de odio, la intimidación ni la discriminación de ningún tipo. Trata a tus matches con el mismo respeto que esperarías recibir."
+    },
+    "content": {
+      "title": "Contenido y Consentimiento",
+      "text": "En Aura respetamos la libertad personal, pero priorizamos el consentimiento. El intercambio de contenido sexualmente explícito está permitido solo si es mutuo.",
+      "important": "Importante: Para enviar o recibir fotos, ambos usuarios deben activar manualmente la opción de \"Cámaras\" en el chat. Si uno no acepta, el intercambio está bloqueado. Enviar contenido explícito no solicitado sin que la otra persona haya activado su permiso resultará en baneo inmediato."
+    },
+    "data_protection": {
+      "title": "Protección de Datos",
+      "text": "Te aconsejamos firmemente no compartir información personal en los chats. Revelar tu dirección, número de teléfono o datos financieros te expone a graves riesgos de fraude o acoso."
+    },
+    "spam": {
+      "title": "Spam y Promoción",
+      "text": "Aura no es un lugar para vender productos, promocionar tus redes sociales o realizar estafas. Las cuentas con fines comerciales serán baneadas."
+    },
+    "report": {
+      "title": "¿Ves algo que rompe las reglas?",
+      "text": "Usa el botón de \"Reportar\" en el perfil o chat. Nuestro equipo de moderación revisará el caso de forma anónima para mantener la comunidad segura."
+    },
+    "safety_center": {
+      "header": "Centro de Seguridad",
+      "hero": {
+        "title": "Tu seguridad es nuestra prioridad",
+        "text": "Aprende cómo protegerte y disfrutar de una experiencia segura tanto dentro como fuera de Aura."
+      },
+      "sections": {
+        "before": {
+          "title": "🤝 Antes de conocerse",
+          "chat": {
+            "title": "Mantén el chat en Aura",
+            "desc": "No pases a WhatsApp o Telegram demasiado pronto. Nuestro sistema de moderación solo puede protegerte si las conversaciones ocurren dentro de la app."
+          },
+          "verify": {
+            "title": "Verifica su identidad",
+            "desc": "Busca el check de verificación azul. Si sospechas que las fotos son falsas o sacadas de internet, puedes pedir una videollamada corta antes de la cita."
+          }
+        },
+        "during": {
+          "title": "☕ Durante la Cita",
+          "public": {
+            "title": "Lugares Públicos",
+            "desc": "Reúnete siempre en lugares concurridos (cafeterías, centros comerciales, restaurantes). Nunca aceptes ir a una casa privada o un lugar aislado en la primera cita."
+          },
+          "circle": {
+            "title": "Informa a tu círculo",
+            "desc": "Envía a un amigo de confianza el nombre de la persona, dónde estarás y la ubicación en tiempo real de tu celular."
+          },
+          "transport": {
+            "title": "Controla tu transporte",
+            "desc": "No dependas de que la otra persona te pase a buscar. Ten tu propio medio de transporte o usa apps de traslados para poder irte cuando quieras."
+          }
+        },
+        "fraud": {
+          "title": "💰 Alerta: Fraudes Financieros",
+          "golden_rule": {
+            "title": "⚠️ ¡Regla de Oro!",
+            "text": "NUNCA envíes dinero por transferencia, cripto o tarjetas de regalo a alguien que acabas de conocer, sin importar qué tan urgente o dramática sea su historia."
+          }
+        },
+        "tools": {
+          "title": "🛡️ Tus Herramientas",
+          "block": {
+            "title": "Bloqueo",
+            "desc": "Desaparece de su vista al instante."
+          },
+          "report": {
+            "title": "Reporte",
+            "desc": "Moderación 24/7 de perfiles."
+          }
+        }
+      },
+      "report_btn": "Reportar un problema ahora"
+    }
+  },
+  "safety_center": {
+    "header": "Centro de Seguridad",
+    "hero": {
+      "title": "Tu seguridad es nuestra prioridad",
+      "text": "Aprende cómo protegerte y disfrutar de una experiencia segura tanto dentro como fuera de Aura."
+    },
+    "sections": {
+      "before": {
+        "title": "🤝 Antes de conocerse",
+        "chat": {
+          "title": "Mantén el chat en Aura",
+          "desc": "No pases a WhatsApp o Telegram demasiado pronto. Nuestro sistema de moderación solo puede protegerte si las conversaciones ocurren dentro de la app."
+        },
+        "verify": {
+          "title": "Verifica su identidad",
+          "desc": "Busca el check de verificación azul. Si sospechas que las fotos son falsas o sacadas de internet, puedes pedir una videollamada corta antes de la cita."
+        }
+      },
+      "during": {
+        "title": "☕ Durante la Cita",
+        "public": {
+          "title": "Lugares Públicos",
+          "desc": "Reúnete siempre en lugares concurridos (cafeterías, centros comerciales, restaurantes). Nunca aceptes ir a una casa privada o un lugar aislado en la primera cita."
+        },
+        "circle": {
+          "title": "Informa a tu círculo",
+          "desc": "Envía a un amigo de confianza el nombre de la persona, dónde estarás y la ubicación en tiempo real de tu celular."
+        },
+        "transport": {
+          "title": "Controla tu transporte",
+          "desc": "No dependas de que la otra persona te pase a buscar. Ten tu propio medio de transporte o usa apps de traslados para poder irte cuando quieras."
+        }
+      },
+      "fraud": {
+        "title": "💰 Alerta: Fraudes Financieros",
+        "golden_rule": {
+          "title": "⚠️ ¡Regla de Oro!",
+          "text": "NUNCA envíes dinero por transferencia, cripto o tarjetas de regalo a alguien que acabas de conocer, sin importar qué tan urgente o dramática sea su historia."
+        }
+      },
+      "tools": {
+        "title": "🛡️ Tus Herramientas",
+        "block": {
+          "title": "Bloqueo",
+          "desc": "Desaparece de su vista al instante."
+        },
+        "report": {
+          "title": "Reporte",
+          "desc": "Moderación 24/7 de perfiles."
+        }
+      }
+    },
+    "report_btn": "Reportar un problema ahora"
+  },
+  "double_date": {
+    "title": "Cita Doble",
+    "setup_title": "Configurar Cita Doble",
+    "setup_subtitle": "Invitá a un amigo para buscar parejas juntos",
+    "search_placeholder": "Buscar amigo por nombre...",
+    "invite_btn": "Enviar Invitación",
+    "invite_sent": "Invitación enviada",
+    "invite_received_title": "¡Te invitaron!",
+    "invite_received_body": "{{name}} quiere que busquen parejas juntos",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "linked": "Vinculados",
+    "linked_with": "Vinculado con {{name}}",
+    "unlink": "Desvincular",
+    "unlink_confirm": "¿Seguro que querés desvincular tu perfil?",
+    "mode_toggle": "Modo Citas Dobles",
+    "mode_active": "Modo Doble: Activo 👥",
+    "match_title": "¡Match Doble! 🎉",
+    "match_subtitle": "¡Su equipo hizo match con otro!",
+    "empty": "No hay equipos disponibles por ahora",
+    "premium_required": "Necesitás Gold o Elite para Citas Dobles",
+    "team_bio_placeholder": "Bio de equipo (opcional)",
+    "card_ages": "{{age1}} y {{age2}} años",
+    "partner_offline": "Tu compañero no está activo en modo doble",
+    "friend_accepted": "¡Tu amigo aceptó la invitación! Ya están vinculados.",
+    "already_linked": "Ya tienes un equipo",
+    "unlink_first": "Debes desvincularte antes de invitar a alguien más.",
+    "unavailable": "Usuario no disponible",
+    "friend_linked": "{{name}} ya tiene un equipo formado.",
+    "invite_sent_to": "Se ha enviado una invitación a {{name}}",
+    "invite_error": "No se pudo enviar la invitación.",
+    "now_linked": "¡Ya estás vinculado! Ahora pueden buscar parejas juntos.",
+    "accept_error": "No se pudo aceptar la invitación.",
+    "copied_title": "Copiado",
+    "copied_body": "Tu ID de amigo ha sido copiado al portapapeles. Pásaselo a tu amigo para que te encuentre fácil.",
+    "share_message": "¡Hola! Vinculemos nuestros perfiles en Aura para tener citas dobles. 👥\n\nBúscame con mi ID de amigo:\n{{id}}",
+    "invite_title": "Invitar a Cita Doble",
+    "mode_desc": "Aparecer en búsquedas de parejas",
+    "waiting_accept": "Esperando que tu amigo acepte...",
+    "my_id": "Mi ID de amigo:",
+    "no_results": "No se encontraron resultados"
+  },
+  "boost_alert": {
+    "active_title": "Boost Activo",
+    "active_desc": "Tu visibilidad ya está multiplicada. Te quedan {{time}}.",
+    "no_boosts_title": "Sin Boosts",
+    "no_boosts_desc": "No tienes Boosts disponibles. ¿Quieres ir a la tienda a comprar más?",
+    "not_now": "Ahora no",
+    "go_to_store": "Ir a la tienda",
+    "activate_title": "Activar Boost",
+    "activate_desc": "Tienes {{count}} Boosts. Selecciona cuánto tiempo quieres multiplicar tu visibilidad:",
+    "option_30m": "30 Minutos (1 Boost)",
+    "option_2h": "2 Horas (4 Boosts)",
+    "option_24h": "24 Horas (10 Boosts)",
+    "activated_title": "¡Boost Activado!",
+    "activated_desc_hours": "Tu perfil será prioritario durante las próximas {{count}} horas.",
+    "activated_desc_minutes": "Tu perfil será prioritario durante los próximos {{count}} minutos."
+  },
+  "ban": {
+    "title": "Usuario Baneado",
+    "appeal_success": "Tu reclamo ha sido enviado correctamente. El equipo de administración lo revisará pronto.",
+    "appeal_error": "No se pudo enviar el reclamo. Inténtalo de nuevo.",
+    "suspended_message": "Tu cuenta ha sido suspendida temporalmente por:",
+    "start_appeal": "⚖️ Iniciar Reclamo",
+    "appeal_placeholder": "Describe por qué deberíamos revisar tu caso...",
+    "submit_review": "Enviar Revisión",
+    "in_review": "Reclamo en Revisión",
+    "in_review_desc": "Nuestro equipo analizará tu caso pronto.",
+    "restricted_access": "Acceso Restringido",
+    "restriction_ends": "La restricción finaliza el:",
+    "permanent": "Permanente",
+    "appeal_error_empty": "Por favor escribe el motivo de tu reclamo."
+  },
+  "maintenance": {
+    "message": "Estamos elevando el nivel de Aura para ofrecerte la mejor experiencia de conexión.",
+    "logout": "Cerrar Sesión Temporalmente",
+    "patience": "Volveremos en unos instantes. Gracias por tu paciencia.",
+    "rebuilding": "RECONSTRUYENDO NÚCLEO... 84%",
+    "system_status": "SYSTEM STATUS: OPTIMIZING"
+  },
+  "tabs": {
+    "discover": "Descubrir",
+    "matches": "Matches",
+    "profile": "Perfil"
+  },
+  "auth": {
+    "invalid_email": "Correo inválido.",
+    "wrong_credentials": "Credenciales incorrectas.",
+    "email_already_in_use": "Este correo ya está registrado.",
+    "weak_password": "La contraseña debe tener al menos 6 caracteres.",
+    "no_internet": "No hay conexión a internet.",
+    "auth_error_title": "Error de Autenticación",
+    "email_placeholder": "Correo electrónico",
+    "password_placeholder": "Contraseña",
+    "processing": "Procesando...",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "no_account": "¿No tienes cuenta? ",
+    "has_account": "¿Ya tienes cuenta? ",
+    "register_link": "Regístrate aquí",
+    "login_link": "Inicia Sesión",
+    "welcome_back": "Bienvenido de nuevo",
+    "create_account": "Crea tu cuenta",
+    "login_subtitle": "Ingresa tus credenciales para continuar.",
+    "register_subtitle": "Registra tu correo electrónico y contraseña.",
+    "enter_email_password": "Por favor ingresa correo y contraseña.",
+    "google_token_error": "No se pudo obtener el ID Token de Google. Verifica la configuración de Firebase.",
+    "network_error_title": "Error de Red",
+    "google_network_error": "No hay conexión o Google Play Services tiene un problema de red.",
+    "config_error_title": "Error de Configuración",
+    "config_error_sha1": "Error 12500: Probablemente el SHA-1 no coincide en Firebase Console.",
+    "access_error_title": "Error de Acceso",
+    "access_error_msg": "Error ({{code}}): Intenta de nuevo o usa otro método.",
+    "play_services_unavailable": "Google Play Services no está disponible.",
+    "apple_not_implemented": "Apple Sign-In no implementado en esta versión demo web. Redirigiendo a anónimo...",
+    "offline_mode": "Estás en modo offline. Entrando...",
+    "prefer_email": "¿Prefieres usar correo electrónico?"
+  },
+  "stories": {
+    "title": "Historias",
+    "empty_message": "Aquí verás las actualizaciones de 24h...",
+    "no_new": "No hay historias nuevas",
+    "no_new_sub": "Cuando tus matches suban historias, aparecerán aquí.",
+    "permission_denied": "Permiso denegado",
+    "gallery_permission": "Necesitamos acceso a tu galería para subir historias.",
+    "camera_permission": "Necesitamos acceso a tu cámara para subir historias.",
+    "published": "¡Historia publicada!",
+    "published_desc": "Tu historia ha sido publicada.",
+    "upload_error": "No se pudo subir la historia: ",
+    "new_story": "Nueva Historia",
+    "share_moment": "Comparte un momento especial",
+    "camera": "Cámara",
+    "gallery": "Galería",
+    "publish": "Publicar Historia",
+    "disappear_hint": "Las historias desaparecen después de 24 horas"
+  }
+}

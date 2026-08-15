@@ -1,0 +1,137 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+        exists(/databases/$(database)/documents/profiles/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/profiles/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    // Profiles
+    match /profiles/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId) || isAdmin();
+      
+      match /{allSubcollections=**} {
+        allow read, write: if isOwner(userId) || isAdmin();
+      }
+    }
+
+    // System Settings (Maintenance Mode)
+    match /system_settings/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Reports & Appeals
+    match /reports/{reportId} {
+      allow create: if isAuthenticated();
+      allow read, update: if isAuthenticated() && (request.auth.uid == resource.data.reporterId || isAdmin());
+    }
+
+    // Swipes
+    match /swipes/{swipeId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && (
+        request.auth.uid == request.resource.data.from ||
+        (request.resource.data.fromTeam != null && request.auth.uid in request.resource.data.fromTeam)
+      );
+      allow update, delete: if isAuthenticated() && (
+        request.auth.uid == resource.data.from ||
+        (resource.data.fromTeam != null && request.auth.uid in resource.data.fromTeam)
+      );
+    }
+
+    match /double_swipes/{swipeId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && (request.auth.uid in request.resource.data.fromTeam);
+      allow update, delete: if isAuthenticated() && (request.auth.uid in resource.data.fromTeam);
+    }
+
+    // Matches
+    match /matches/{matchId} {
+      // Allow read if user is a participant (data) OR if their UID is part of the ID string (existence check)
+      allow read: if isAuthenticated() && (
+        (resource != null && request.auth.uid in resource.data.participants) ||
+        matchId.matches('.*' + request.auth.uid + '.*') || 
+        isAdmin()
+      );
+      allow write: if isAuthenticated();
+      
+      match /messages/{messageId} {
+        allow read: if isAuthenticated() && (
+          matchId.matches('.*' + request.auth.uid + '.*') ||
+          (get(/databases/$(database)/documents/matches/$(matchId)).data.participants != null &&
+           request.auth.uid in get(/databases/$(database)/documents/matches/$(matchId)).data.participants) ||
+           isAdmin()
+        );
+        allow write: if isAuthenticated() && (
+          matchId.matches('.*' + request.auth.uid + '.*') ||
+          (get(/databases/$(database)/documents/matches/$(matchId)).data.participants != null &&
+           request.auth.uid in get(/databases/$(database)/documents/matches/$(matchId)).data.participants)
+        );
+      }
+    }
+
+    // Broadcasts
+    match /broadcasts/{broadcastId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    // Config
+    match /config/{document=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Stories (Simplified and more permissive for debugging)
+    match /stories/{storyId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated(); 
+      allow delete: if isAuthenticated() && (request.auth.uid == resource.data.userId || isAdmin());
+
+      match /replies/{replyId} {
+        // Allows reading if the user is the owner of the story or the sender of the reply
+        allow read: if isAuthenticated() && (
+          request.auth.uid == resource.data.ownerId || 
+          request.auth.uid == resource.data.senderId ||
+          isAdmin()
+        );
+        allow create: if isAuthenticated();
+        allow update, delete: if isAuthenticated() && (
+          request.auth.uid == resource.data.senderId || 
+          request.auth.uid == resource.data.ownerId ||
+          isAdmin()
+        );
+      }
+    }
+
+    // Verification Requests
+    match /verifications/{requestId} {
+      allow create: if isAuthenticated();
+      allow read, update, delete: if isAdmin() || (isAuthenticated() && request.auth.uid == resource.data.userId);
+    }
+
+    // Blocks
+    match /blocks/{blockId} {
+      allow read: if isAuthenticated() && (
+        request.auth.uid == resource.data.blockerId || 
+        request.auth.uid == resource.data.blockedId || 
+        isAdmin()
+      );
+      allow create: if isAuthenticated() && request.auth.uid == request.resource.data.blockerId;
+      allow delete: if isAuthenticated() && (isAdmin() || request.auth.uid == resource.data.blockerId);
+    }
+  }
+}

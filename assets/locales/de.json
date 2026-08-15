@@ -1,0 +1,397 @@
+{
+  "welcome": {
+    "title": "Aura",
+    "tagline": "Verbinde dich mit deiner Aura",
+    "google": "Weiter mit Google",
+    "apple": "Weiter mit Apple",
+    "phone": "Mit Telefonnummer anmelden",
+    "or": "oder",
+    "terms_prefix": "Durch Fortfahren akzeptierst du unsere ",
+    "terms_link": "Nutzungsbedingungen",
+    "terms_and": " und ",
+    "privacy_link": "Datenschutzbestimmungen"
+  },
+  "common": {
+    "next": "Weiter",
+    "back": "Zurück",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "error": "Fehler",
+    "loading": "Laden...",
+    "interests": {
+      "travel": "Reisen",
+      "coffee": "Kaffee",
+      "photography": "Fotografie",
+      "yoga": "Yoga",
+      "music": "Musik",
+      "movies": "Filme",
+      "reading": "Lesen",
+      "techno": "Techno",
+      "dog_lover": "Hundefreund",
+      "cat_lover": "Katzenfreund",
+      "hiking": "Wandern",
+      "running": "Laufen",
+      "gym": "Fitness",
+      "cooking": "Kochen",
+      "art": "Kunst",
+      "design": "Design",
+      "architecture": "Architektur",
+      "fashion": "Mode",
+      "gaming": "Gaming",
+      "surfing": "Surfen",
+      "tennis": "Tenis",
+      "soccer": "Fußball",
+      "swimming": "Schwimmen",
+      "cycling": "Radfahren",
+      "meditation": "Meditation",
+      "jazz": "Jazz",
+      "rock": "Rock",
+      "pop": "Pop",
+      "electronic": "Elektronik",
+      "reggaeton": "Reggaeton",
+      "wine": "Wein",
+      "beer": "Bier",
+      "beach": "Strand",
+      "mountain": "Berge",
+      "netflix": "Netflix",
+      "theater": "Theater",
+      "dance": "Tanz",
+      "volunteering": "Ehrenamt",
+      "entrepreneurship": "Unternehmertum",
+      "report_problem": {
+        "title": "Problem melden",
+        "info_title": "Was ist passiert?",
+        "info_sub": "Beschreibe das Problem so detailliert wie möglich.",
+        "label_category": "Problemkategorie",
+        "categories": {
+          "profile": "Profil / Fotos",
+          "match": "Match / Chat",
+          "subscription": "Abo / Zahlung",
+          "safety": "Belästigung / Sicherheit",
+          "bug": "Technischer Fehler (Bug)",
+          "other": "Vorschlag / Sonstiges"
+        },
+        "label_description": "Detaillierte Beschreibung",
+        "placeholder": "Schreibe die Details hier...",
+        "error_empty": "Bitte beschreibe das Problem, damit wir helfen können.",
+        "error_timeout": "Verbindung dauert zu lange. Bitte erneut versuchen.",
+        "error_generic": "Bericht konnte nicht gesendet werden. Bitte erneut versuchen.",
+        "anonymous": "Anonymer Benutzer",
+        "submit": "Bericht senden",
+        "submitting": "Senden...",
+        "success_title": "Bericht gesendet",
+        "success_sub": "Vielen Dank. Unser Team wird das Problem prüfen.",
+        "back_profile": "Zurück zum Profil",
+        "security_text": "Aura schützt deine Privatsphäre. Dieser Bericht ist vertraulich."
+      },
+      "technology": "Technologie",
+      "science": "Wissenschaft",
+      "psychology": "Psychologie"
+    }
+  },
+  "chat": {
+    "typing": "Schreibt...",
+    "active_recently": "Kürzlich aktiv",
+    "placeholder": "Schreibe eine Nachricht...",
+    "not_found": "Chat nicht gefunden",
+    "seen": "Gesehen"
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "edit": "Profil bearbeiten",
+    "edit_btn": "Bearbeiten",
+    "settings": "Einstellungen",
+    "language": "Sprache",
+    "verified": "Verifiziert",
+    "premium": "Premium",
+    "bio_placeholder": "Vervollständige deine Bio für bessere Matches ✨",
+    "like_expired": {
+      "title": "Likes aufgebraucht",
+      "body": "Upgrade auf Gold oder Platinum für unbegrenzte Likes"
+    },
+    "stats": {
+      "likes": "Likes erhalten",
+      "matches": "Matches",
+      "superlikes": "Super Likes"
+    },
+    "plans": {
+      "free": "Gratis",
+      "gold": "⭐ Gold",
+      "platinum": "💎 Platinum",
+      "unlimited": "Unbegrenzt",
+      "remaining": "{{count}} Likes heute übrig",
+      "upgrade": "Upgrade →"
+    },
+    "settings_items": {
+      "notifications": "Benachrichtigungen",
+      "privacy": "Privatsphäre",
+      "help": "Hilfe",
+      "terms": "AGB & Datenschutz"
+    },
+    "logout": "Abmelden"
+  },
+  "help": {
+    "categories": {
+      "subscriptions": "Abonnements",
+      "account": "Konto",
+      "safety": "Sicherheit",
+      "matches": "Matches & Nachrichten"
+    },
+    "faqs": {
+      "cancel": { "q": "Wie kann ich mein Abonnement kündigen?", "a": "Du kannst dein Abonnement direkt in den Kontoeinstellungen in Google Play Store oder Apple App Store verwalten und kündigen." },
+      "gold_benefits": { "q": "Was beinhaltet der Gold-Plan?", "a": "Beinhaltet unbegrenzte Likes, Zurückspulen, Passport-Modus, 5 wöchentliche Super Likes und sehen, wer dich mag." },
+      "grace_period": { "q": "Wie funktioniert die 7-tägige Frist?", "a": "Wenn du die Kontolöschung beantragst, hast du 7 Tage Zeit, dich wieder einzuloggen und zu stornieren. Dein Profil ist in dieser Zeit nicht sichtbar." },
+      "change_age": { "q": "Wie ändere ich meinen Namen oder mein Alter?", "a": "Aus Sicherheitsgründen können Name und Alter nach der Registrierung nicht mehr geändert werden. Erstelle ein neues Konto bei Fehlern." },
+      "report_harassment": { "q": "Wie melde ich Belästigung?", "a": "Gehe zum Profil der Person, tippe auf die drei Punkte (...) und wähle 'Melden'. Wir nehmen alle Berichte sehr ernst." },
+      "block_user": { "q": "Wie blockiere ich jemanden?", "a": "Du kannst jeden Benutzer blockieren, indem du 'Blockieren' am Profil oder im Chat wählst. Er wird dich sofort nicht mehr sehen." },
+      "missing_match": { "q": "Warum ist mein Match verschwunden?", "a": "Ein Match verschwindet, wenn die andere Person ihr Konto löscht oder das Match auflöst." },
+      "no_notifs": { "q": "Ich erhalte keine Nachrichten-Benachrichtigungen", "a": "Stelle sicher, dass Benachrichtigungen in Aura und in deinen Telefoneinstellungen aktiviert sind." }
+    },
+    "no_results": "Keine Ergebnisse gefunden"
+  },
+  "phone": {
+    "title": "Deine Nummer",
+    "subtitle": "Wir schicken dir einen Bestätigungscode per SMS",
+    "placeholder": "Telefonnummer",
+    "disclaimer": "Durch Fortfahren bestätigst du, dass du 18 Jahre oder älter bist und SMS-Nachrichten akzeptierst.",
+    "send_code": "Code senden",
+    "countries": {
+      "ar": "Argentinien",
+      "us": "USA",
+      "mx": "Mexiko",
+      "co": "Kolumbien",
+      "cl": "Chile",
+      "es": "Spanien",
+      "br": "Brasilien"
+    }
+  },
+  "otp": {
+    "title": "Bestätigungscode",
+    "subtitle": "Gib den 6-stelligen Code ein, den wir an deine Nummer gesendet haben",
+    "resend_text": "Code nicht erhalten? ",
+    "resend_link": "Erneut senden",
+    "verify": "Verifizieren"
+  },
+  "onboarding": {
+    "name": {
+      "title": "Wie heißt\ndu?",
+      "subtitle": "So wirst du auf Aura angezeigt",
+      "placeholder": "Vorname",
+      "hint": "Nur dein Vorname, kein Nachname"
+    },
+    "birth": {
+      "title": "Wann hast du\nGeburtstag?",
+      "subtitle": "Du musst mindestens 18 Jahre alt sein, um Aura zu nutzen",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "months": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+      "age_display": "Du bist {{age}} Jahre alt"
+    },
+    "gender": {
+      "title": "Wie identifizierst du dich?",
+      "subtitle": "Das hilft uns, dir die richtigen Profile zu zeigen",
+      "soy": "Ich bin",
+      "busco": "Suche nach",
+      "options": {
+        "man": "Mann",
+        "woman": "Frau",
+        "nonbinary": "Nicht-binär",
+        "other": "Andere"
+      },
+      "looking_for": {
+        "men": "Männer",
+        "women": "Frauen",
+        "everyone": "Alle"
+      }
+    },
+    "location": {
+      "title": "Wo bist du?",
+      "subtitle": "Wir benötigen deinen Standort, um dir Personen in der Nähe zu zeigen",
+      "activate_title": "Standort aktivieren",
+      "activate_desc": "Aura nutzt deinen Standort, um dir Personen in deiner Nähe zu zeigen",
+      "allow_access": "Zugriff erlauben",
+      "activating": "Aktiviere...",
+      "activated": "Standort aktiviert",
+      "origin_label": "Woher kommst du? (optional)",
+      "origin_placeholder": "Herkunftsort oder Land",
+      "origin_hint": "Dies wird in deinem Profil angezeigt"
+    },
+    "photos": {
+      "title": "Deine Fotos",
+      "subtitle": "Lade mindestens {{min}} Fotos hoch, um dein Profil zu aktivieren",
+      "main": "Hauptfoto",
+      "required": "Erforderlich",
+      "hint": "Halte ein Foto gedrückt, um es zu löschen. Das erste Foto wird dein Hauptfoto sein.",
+      "continue_btn": "Weiter ({{count}}/{{min}} min.)"
+    },
+    "interests": {
+      "title": "Deine Interessen",
+      "subtitle": "Wähle mindestens {{min}} aus, um bessere Matches zu erhalten",
+      "continue_btn": "Weiter ({{count}}/{{min}} min.)",
+      "counter": "{{count}} ausgewählt",
+      "minimum": "(mindestens {{min}})"
+    },
+    "bio": {
+      "title": "Deine Bio",
+      "subtitle": "Erzähl etwas über dich. Sei authentisch 😊",
+      "placeholder": "Z.B.: Kaffee- und Reiseliebhaber. Immer auf der Suche nach dem nächsten Abenteuer...",
+      "hint": "Die Bio ist optional, erhöht aber deine Match-Chancen erheblich ✨",
+      "skip_text": "Du kannst sie später in deinem Profil ausfüllen",
+      "start_btn": "Aura jetzt nutzen!"
+    }
+  },
+  "discover": {
+    "no_more": "Keine weiteren Profile für heute",
+    "match_title": "Es ist ein Match!",
+    "swipe": {
+      "like": "LIKE",
+      "nope": "NEIN",
+      "super": "SUPER",
+      "expand_hint": "↑ Wischen für mehr Infos"
+    },
+    "empty": {
+      "title": "Du hast alle gesehen!",
+      "subtitle": "Komm später wieder oder ändere deine Filter",
+      "refresh_btn": "Profile neu laden"
+    },
+    "match": {
+      "title": "Es ist ein Match! 🎉",
+      "subtitle": "Du und {{name}} mögt euch!",
+      "send_message": "Nachricht senden",
+      "continue": "Weiter entdecken"
+    }
+  },
+  "matches": {
+    "title": "Matches",
+    "new_matches": "Neue Matches",
+    "messages": "Nachrichten",
+    "new_match_hint": "Neues Match! Sag hallo 👋",
+    "empty": {
+      "title": "Noch keine Matches",
+      "subtitle": "Wische weiter, um dein Match zu finden!"
+    }
+  },
+  "paywall": {
+    "header": {
+      "badge": "⚡ Premium",
+      "title": "Schalte ganz\nAura frei",
+      "subtitle": "Mehr Matches, mehr Kontakte, mehr Möglichkeiten"
+    },
+    "plans": {
+      "free": { "name": "Gratis", "period": "für immer" },
+      "gold": { "name": "Gold", "period": "pro Monat", "badge": "Beliebt" },
+      "platinum": { "name": "Platinum", "period": "pro Monat", "badge": "Bester Wert" }
+    },
+    "features": {
+      "likes_20": "20 Likes pro Tag",
+      "superlike_1": "1 Super Like pro Tag",
+      "view_matches": "Matches sehen",
+      "unlimited_likes": "Unbegrenzte Likes",
+      "rewind": "Rewind (Zurücksetzen)",
+      "boost_1": "1 Boost pro Monat",
+      "view_who_likes": "Sehen, wer dich mag",
+      "unlimited_superlikes": "Unbegrenzte Super Likes",
+      "unlimited_boosts": "Unbegrenzte Boosts",
+      "algorithm_priority": "Priorität im Algorithmus"
+    },
+    "cta": {
+      "processing": "Wird verarbeitet...",
+      "continue_free": "Gratis fortfahren",
+      "subscribe": "{{plan}} abonnieren"
+    },
+    "disclaimer": "Automatische Abrechnung. Jederzeit kündbar.",
+    "current_plan": "Aktueller Plan"
+  },
+  "edit_profile": {
+    "title": "Profil bearbeiten",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "saving": "Wird gespeichert...",
+    "name_label": "Name",
+    "name_placeholder": "Dein Name",
+    "bio_label": "Bio",
+    "bio_placeholder": "Erzähl uns etwas über dich...",
+    "tips_title": "💡 Tipps für eine bessere Bio",
+    "tips": [
+      "Sei authentisch und echt",
+      "Nenne deine Hobbys und Interessen",
+      "Füge etwas Humor hinzu",
+      "Vermeide sensible persönliche Informationen"
+    ],
+    "interests_label": "Deine Interessen",
+    "edit_interests": "Interessen bearbeiten →",
+    "save_btn": "Änderungen speichern",
+    "saving_btn": "Änderungen werden gespeichert..."
+  },
+  "filters": {
+    "title": "Filter",
+    "reset": "Zurücksetzen",
+    "back": "Zurück",
+    "age": "Alter",
+    "distance": "Maximale Entfernung",
+    "gender": "Geschlecht",
+    "interests": "Interessen",
+    "only_photos": "Nur mit Fotos",
+    "verified": "Verifiziert",
+    "online_now": "Jetzt online",
+    "apply": "Filter anwenden",
+    "genders": {
+      "man": "Mann",
+      "woman": "Frau",
+      "nonbinary": "Nicht-binär"
+    }
+  },
+  "boost": {
+    "title": "Profil-Boost",
+    "back": "Zurück",
+    "banner": {
+      "title": "Erscheine zuerst",
+      "subtitle": "Multipliziere deine Matches durch mehr Sichtbarkeit"
+    },
+    "options": {
+      "popular": "⭐ Beliebt",
+      "duration_30m": "30 Minuten",
+      "duration_2h": "2 Stunden",
+      "duration_24h": "24 Stunden",
+      "features_30m": [
+        "30 Minuten an der Suchspitze",
+        "Mehr Sichtbarkeit",
+        "Boost-Benachrichtigung"
+      ],
+      "features_2h": [
+        "2 Stunden an der Suchspitze",
+        "3x mehr Sichtbarkeit",
+        "Boost-Benachrichtigung",
+        "Sichtbarer Countdown"
+      ],
+      "features_24h": [
+        "24 Stunden an der Suchspitze",
+        "10x mehr Sichtbarkeit",
+        "Boost-Benachrichtigung",
+        "Sichtbarer Countdown",
+        "Erscheint zuerst in der Suche"
+      ]
+    },
+    "how_it_works": {
+      "title": "Wie funktioniert es?",
+      "steps": [
+        { "title": "Boost aktivieren", "desc": "Dauer wählen und bestätigen" },
+        { "title": "Im Ranking steigen", "desc": "Erscheine zuerst in der Suche" },
+        { "title": "Mehr Matches", "desc": "Mehr Sichtbarkeit = mehr Kontakte" }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        { "q": "Kann ich mehrere Boosts nutzen?", "a": "Ja, aber nur einer kann aktiv sein." },
+        { "q": "Ist mein Boost sichtbar?", "a": "Nein, nur du weißt vom Boost." },
+        { "q": "Was wenn ich keine Matches bekomme?", "a": "Vervollständige dein Profil mit echten Interessen." }
+      ]
+    },
+    "cta": {
+      "activating": "Wird aktiviert...",
+      "activate_btn": "Für ${{price}} aktivieren"
+    }
+  }
+}
